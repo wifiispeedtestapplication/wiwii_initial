@@ -7,8 +7,10 @@ namespace wiwii
 {
     public partial class UserMasterPage : ContentPage
     {
-        public UserMasterPage()
+        MasterDetailPage myMaster;
+        public UserMasterPage(MasterDetailPage _myMaster)
         {
+            myMaster = _myMaster;
             InitializeComponent();
         }
     }
