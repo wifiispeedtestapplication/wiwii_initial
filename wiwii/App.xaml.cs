@@ -10,7 +10,13 @@ namespace wiwii
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            //MainPage = new MainPage();
+            MainPage = new NavigationPage(new MainPage());
+        }
+
+        public void OnLogin()
+        {
+            MainPage = new AfterLoginPage();
         }
 
         protected override void OnStart()

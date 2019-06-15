@@ -2,7 +2,22 @@
 <MasterDetailPage 
     xmlns="http://xamarin.com/schemas/2014/forms"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
-    x:Class="wiwii.AfterLoginPage">
-    <ContentPage.Content>
-    </ContentPage.Content>
+    x:Class="wiwii.AfterLoginPage" Title="After Login Page">
+    <MasterDetailPage.Master>
+        <ContentPage Padding="10" BackgroundColor="Lime" Title="Master">
+            <ContentPage.Content>
+                
+            </ContentPage.Content>
+        </ContentPage>
+        
+    </MasterDetailPage.Master>
+    
+    <MasterDetailPage.Detail>
+        <ContentPage>
+            <ContentPage.Content>
+                
+            </ContentPage.Content>
+        </ContentPage>
+    </MasterDetailPage.Detail>
+    
 </MasterDetailPage>

@@ -17,5 +17,11 @@ namespace wiwii
         {
             InitializeComponent();
         }
+
+        void Handle_Login_Clicked(object sender, System.EventArgs e)
+        {
+            var myApp = Application.Current as App;
+            myApp.OnLogin();
+        }
     }
 }
