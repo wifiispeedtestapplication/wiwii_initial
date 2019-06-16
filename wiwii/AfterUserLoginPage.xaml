@@ -1,22 +1,35 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<MasterDetailPage 
+<Shell 
     xmlns="http://xamarin.com/schemas/2014/forms" 
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+    xmlns:pages="clr-namespace:Wiwii; assembly=Wiwii"
     x:Class="Wiwii.AfterUserLoginPage" Title="After Login Page">
-    <MasterDetailPage.Master>
-        <ContentPage Padding="10" BackgroundColor="Lime" Title="Master">
-            <ContentPage.Content>
-                
-            </ContentPage.Content>
-        </ContentPage>
-        
-    </MasterDetailPage.Master>
+    <Shell.FlyoutHeaderTemplate>
+        <DataTemplate>
+            <Grid BackgroundColor="#E0DDF5" HeightRequest="200">
+                <Image Aspect="AspectFit"
+                       Source="profile.png"
+                       Opacity="0.6" />
+                <Label Text="John Doe" TextColor="White"
+                       FontAttributes="Bold" HorizontalOptions="Center"
+                       VerticalOptions="End" />
+            </Grid>
+        </DataTemplate>
+    </Shell.FlyoutHeaderTemplate>
+
+    <FlyoutItem Title="Speed" Icon="speeds.png">
+        <ShellContent ContentTemplate="{DataTemplate pages:WiWiiFirstPage}" />
+    </FlyoutItem>
     
-    <MasterDetailPage.Detail>
-        <ContentPage>
-            <ContentPage.Content>
-                
-            </ContentPage.Content>
-        </ContentPage>
-    </MasterDetailPage.Detail>
-</MasterDetailPage>
+    <FlyoutItem Title="Hours" Icon="hour.png">
+        <ShellContent ContentTemplate="{DataTemplate pages:WiWiiFirstPage}" />
+    </FlyoutItem>
+    
+    <FlyoutItem Title="Distance" Icon="distance.png">
+        <ShellContent ContentTemplate="{DataTemplate pages:WiWiiFirstPage}" />
+    </FlyoutItem>
+    
+    <FlyoutItem Title="Make A Test" Icon="test.png">
+        <ShellContent ContentTemplate="{DataTemplate pages:WiWiiFirstPage}" />
+    </FlyoutItem>
+</Shell>

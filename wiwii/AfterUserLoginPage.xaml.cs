@@ -5,13 +5,11 @@ using Xamarin.Forms;
 
 namespace Wiwii
 {
-    public partial class AfterUserLoginPage : MasterDetailPage
+    public partial class AfterUserLoginPage : Shell
     {
         public AfterUserLoginPage()
         {
-			var masterPage = new UserMasterPage(this);
-			Master = masterPage;
-			Detail = new NavigationPage(new UserDetailPage());
-		}
+            InitializeComponent();
+        }
     }
 }

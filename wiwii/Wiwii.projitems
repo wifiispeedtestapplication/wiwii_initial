@@ -26,14 +26,6 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Include="$(MSBuildThisFileDirectory)UserMasterPage.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
-    </EmbeddedResource>
-    <EmbeddedResource Include="$(MSBuildThisFileDirectory)UserDetailPage.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
-    </EmbeddedResource>
     <EmbeddedResource Include="$(MSBuildThisFileDirectory)MapPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
@@ -57,12 +49,6 @@
     <Compile Include="$(MSBuildThisFileDirectory)AfterUserLoginPage.xaml.cs">
       <DependentUpon>AfterUserLoginPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="$(MSBuildThisFileDirectory)UserMasterPage.xaml.cs">
-      <DependentUpon>UserMasterPage.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="$(MSBuildThisFileDirectory)UserDetailPage.xaml.cs">
-      <DependentUpon>UserDetailPage.xaml</DependentUpon>
-    </Compile>
     <Compile Include="$(MSBuildThisFileDirectory)MapPage.xaml.cs">
       <DependentUpon>MapPage.xaml</DependentUpon>
     </Compile>
@@ -83,5 +69,9 @@
     <None Include="$(MSBuildThisFileDirectory)Images\gmail.jpg" />
     <None Include="$(MSBuildThisFileDirectory)fb.png" />
     <None Include="$(MSBuildThisFileDirectory)gmail.jpg" />
+    <None Include="$(MSBuildThisFileDirectory)Images\hour.png" />
+    <None Include="$(MSBuildThisFileDirectory)Images\test.png" />
+    <None Include="$(MSBuildThisFileDirectory)Images\speed.png" />
+    <None Include="$(MSBuildThisFileDirectory)Images\distance.png" />
   </ItemGroup>
 </Project>

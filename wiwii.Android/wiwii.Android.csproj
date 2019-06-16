@@ -97,6 +97,10 @@
     <AndroidResource Include="Resources\drawable\wifiilogo1.png" />
     <AndroidResource Include="Resources\drawable\fb.png" />
     <AndroidResource Include="Resources\drawable\gmail.jpg" />
+    <AndroidResource Include="Resources\drawable\hour.png" />
+    <AndroidResource Include="Resources\drawable\test.png" />
+    <AndroidResource Include="Resources\drawable\speed.png" />
+    <AndroidResource Include="Resources\drawable\distance.png" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\drawable\" />
