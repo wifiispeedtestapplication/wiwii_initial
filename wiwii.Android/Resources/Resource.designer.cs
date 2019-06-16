@@ -26,6 +26,111 @@ namespace Wiwii.Droid
 		
 		public static void UpdateIdValues()
 		{
+			global::com.refractored.monodroidtoolkit.Resource.Attribute.circleColor = global::Wiwii.Droid.Resource.Attribute.circleColor;
+			global::com.refractored.monodroidtoolkit.Resource.Attribute.circularProgressBarStyle = global::Wiwii.Droid.Resource.Attribute.circularProgressBarStyle;
+			global::com.refractored.monodroidtoolkit.Resource.Attribute.circular_gravity = global::Wiwii.Droid.Resource.Attribute.circular_gravity;
+			global::com.refractored.monodroidtoolkit.Resource.Attribute.circular_indeterminate = global::Wiwii.Droid.Resource.Attribute.circular_indeterminate;
+			global::com.refractored.monodroidtoolkit.Resource.Attribute.circular_indeterminate_interval = global::Wiwii.Droid.Resource.Attribute.circular_indeterminate_interval;
+			global::com.refractored.monodroidtoolkit.Resource.Attribute.circular_marker_progress = global::Wiwii.Droid.Resource.Attribute.circular_marker_progress;
+			global::com.refractored.monodroidtoolkit.Resource.Attribute.circular_progress = global::Wiwii.Droid.Resource.Attribute.circular_progress;
+			global::com.refractored.monodroidtoolkit.Resource.Attribute.circular_progress_background_color = global::Wiwii.Droid.Resource.Attribute.circular_progress_background_color;
+			global::com.refractored.monodroidtoolkit.Resource.Attribute.circular_progress_color = global::Wiwii.Droid.Resource.Attribute.circular_progress_color;
+			global::com.refractored.monodroidtoolkit.Resource.Attribute.circular_stroke_width = global::Wiwii.Droid.Resource.Attribute.circular_stroke_width;
+			global::com.refractored.monodroidtoolkit.Resource.Attribute.indeterminate = global::Wiwii.Droid.Resource.Attribute.indeterminate;
+			global::com.refractored.monodroidtoolkit.Resource.Attribute.indeterminate_interval = global::Wiwii.Droid.Resource.Attribute.indeterminate_interval;
+			global::com.refractored.monodroidtoolkit.Resource.Attribute.innerSize = global::Wiwii.Droid.Resource.Attribute.innerSize;
+			global::com.refractored.monodroidtoolkit.Resource.Attribute.max = global::Wiwii.Droid.Resource.Attribute.max;
+			global::com.refractored.monodroidtoolkit.Resource.Attribute.pinned = global::Wiwii.Droid.Resource.Attribute.pinned;
+			global::com.refractored.monodroidtoolkit.Resource.Attribute.pinnedDrawable = global::Wiwii.Droid.Resource.Attribute.pinnedDrawable;
+			global::com.refractored.monodroidtoolkit.Resource.Attribute.progress = global::Wiwii.Droid.Resource.Attribute.progress;
+			global::com.refractored.monodroidtoolkit.Resource.Attribute.progressButtonStyle = global::Wiwii.Droid.Resource.Attribute.progressButtonStyle;
+			global::com.refractored.monodroidtoolkit.Resource.Attribute.progressColor = global::Wiwii.Droid.Resource.Attribute.progressColor;
+			global::com.refractored.monodroidtoolkit.Resource.Attribute.shadowDrawable = global::Wiwii.Droid.Resource.Attribute.shadowDrawable;
+			global::com.refractored.monodroidtoolkit.Resource.Attribute.unpinnedDrawable = global::Wiwii.Droid.Resource.Attribute.unpinnedDrawable;
+			global::com.refractored.monodroidtoolkit.Resource.Color.progress_default_circle_color = global::Wiwii.Droid.Resource.Color.progress_default_circle_color;
+			global::com.refractored.monodroidtoolkit.Resource.Color.progress_default_progress_color = global::Wiwii.Droid.Resource.Color.progress_default_progress_color;
+			global::com.refractored.monodroidtoolkit.Resource.Color.refractored_background_dark = global::Wiwii.Droid.Resource.Color.refractored_background_dark;
+			global::com.refractored.monodroidtoolkit.Resource.Color.refractored_background_holo_dark = global::Wiwii.Droid.Resource.Color.refractored_background_holo_dark;
+			global::com.refractored.monodroidtoolkit.Resource.Color.refractored_background_holo_light = global::Wiwii.Droid.Resource.Color.refractored_background_holo_light;
+			global::com.refractored.monodroidtoolkit.Resource.Color.refractored_background_light = global::Wiwii.Droid.Resource.Color.refractored_background_light;
+			global::com.refractored.monodroidtoolkit.Resource.Color.refractored_bright_foreground_dark = global::Wiwii.Droid.Resource.Color.refractored_bright_foreground_dark;
+			global::com.refractored.monodroidtoolkit.Resource.Color.refractored_bright_foreground_dark_disabled = global::Wiwii.Droid.Resource.Color.refractored_bright_foreground_dark_disabled;
+			global::com.refractored.monodroidtoolkit.Resource.Color.refractored_bright_foreground_disabled_holo_dark = global::Wiwii.Droid.Resource.Color.refractored_bright_foreground_disabled_holo_dark;
+			global::com.refractored.monodroidtoolkit.Resource.Color.refractored_bright_foreground_disabled_holo_light = global::Wiwii.Droid.Resource.Color.refractored_bright_foreground_disabled_holo_light;
+			global::com.refractored.monodroidtoolkit.Resource.Color.refractored_bright_foreground_holo_dark = global::Wiwii.Droid.Resource.Color.refractored_bright_foreground_holo_dark;
+			global::com.refractored.monodroidtoolkit.Resource.Color.refractored_bright_foreground_holo_light = global::Wiwii.Droid.Resource.Color.refractored_bright_foreground_holo_light;
+			global::com.refractored.monodroidtoolkit.Resource.Color.refractored_bright_foreground_light = global::Wiwii.Droid.Resource.Color.refractored_bright_foreground_light;
+			global::com.refractored.monodroidtoolkit.Resource.Color.refractored_dim_foreground_disabled_holo_dark = global::Wiwii.Droid.Resource.Color.refractored_dim_foreground_disabled_holo_dark;
+			global::com.refractored.monodroidtoolkit.Resource.Color.refractored_dim_foreground_disabled_holo_light = global::Wiwii.Droid.Resource.Color.refractored_dim_foreground_disabled_holo_light;
+			global::com.refractored.monodroidtoolkit.Resource.Color.refractored_dim_foreground_holo_dark = global::Wiwii.Droid.Resource.Color.refractored_dim_foreground_holo_dark;
+			global::com.refractored.monodroidtoolkit.Resource.Color.refractored_dim_foreground_holo_light = global::Wiwii.Droid.Resource.Color.refractored_dim_foreground_holo_light;
+			global::com.refractored.monodroidtoolkit.Resource.Color.refractored_highlighted_text_holo_dark = global::Wiwii.Droid.Resource.Color.refractored_highlighted_text_holo_dark;
+			global::com.refractored.monodroidtoolkit.Resource.Color.refractored_highlighted_text_holo_light = global::Wiwii.Droid.Resource.Color.refractored_highlighted_text_holo_light;
+			global::com.refractored.monodroidtoolkit.Resource.Color.refractored_hint_foreground_holo_dark = global::Wiwii.Droid.Resource.Color.refractored_hint_foreground_holo_dark;
+			global::com.refractored.monodroidtoolkit.Resource.Color.refractored_hint_foreground_holo_light = global::Wiwii.Droid.Resource.Color.refractored_hint_foreground_holo_light;
+			global::com.refractored.monodroidtoolkit.Resource.Color.refractored_holo_blue_bright = global::Wiwii.Droid.Resource.Color.refractored_holo_blue_bright;
+			global::com.refractored.monodroidtoolkit.Resource.Color.refractored_holo_blue_dark = global::Wiwii.Droid.Resource.Color.refractored_holo_blue_dark;
+			global::com.refractored.monodroidtoolkit.Resource.Color.refractored_holo_blue_light = global::Wiwii.Droid.Resource.Color.refractored_holo_blue_light;
+			global::com.refractored.monodroidtoolkit.Resource.Color.refractored_holo_green_dark = global::Wiwii.Droid.Resource.Color.refractored_holo_green_dark;
+			global::com.refractored.monodroidtoolkit.Resource.Color.refractored_holo_green_light = global::Wiwii.Droid.Resource.Color.refractored_holo_green_light;
+			global::com.refractored.monodroidtoolkit.Resource.Color.refractored_holo_orange_dark = global::Wiwii.Droid.Resource.Color.refractored_holo_orange_dark;
+			global::com.refractored.monodroidtoolkit.Resource.Color.refractored_holo_orange_light = global::Wiwii.Droid.Resource.Color.refractored_holo_orange_light;
+			global::com.refractored.monodroidtoolkit.Resource.Color.refractored_holo_purple = global::Wiwii.Droid.Resource.Color.refractored_holo_purple;
+			global::com.refractored.monodroidtoolkit.Resource.Color.refractored_holo_red_dark = global::Wiwii.Droid.Resource.Color.refractored_holo_red_dark;
+			global::com.refractored.monodroidtoolkit.Resource.Color.refractored_holo_red_light = global::Wiwii.Droid.Resource.Color.refractored_holo_red_light;
+			global::com.refractored.monodroidtoolkit.Resource.Dimension.progress_inner_size = global::Wiwii.Droid.Resource.Dimension.progress_inner_size;
+			global::com.refractored.monodroidtoolkit.Resource.Drawable.pin_progress_pinned = global::Wiwii.Droid.Resource.Drawable.pin_progress_pinned;
+			global::com.refractored.monodroidtoolkit.Resource.Drawable.pin_progress_shadow = global::Wiwii.Droid.Resource.Drawable.pin_progress_shadow;
+			global::com.refractored.monodroidtoolkit.Resource.Drawable.pin_progress_unpinned = global::Wiwii.Droid.Resource.Drawable.pin_progress_unpinned;
+			global::com.refractored.monodroidtoolkit.Resource.Drawable.scrubber_control_normal_holo = global::Wiwii.Droid.Resource.Drawable.scrubber_control_normal_holo;
+			global::com.refractored.monodroidtoolkit.Resource.Drawable.scrubber_control_pressed_holo = global::Wiwii.Droid.Resource.Drawable.scrubber_control_pressed_holo;
+			global::com.refractored.monodroidtoolkit.Resource.Id.bottom = global::Wiwii.Droid.Resource.Id.bottom;
+			global::com.refractored.monodroidtoolkit.Resource.Id.center = global::Wiwii.Droid.Resource.Id.center;
+			global::com.refractored.monodroidtoolkit.Resource.Id.center_horizontal = global::Wiwii.Droid.Resource.Id.center_horizontal;
+			global::com.refractored.monodroidtoolkit.Resource.Id.center_vertical = global::Wiwii.Droid.Resource.Id.center_vertical;
+			global::com.refractored.monodroidtoolkit.Resource.Id.clip = global::Wiwii.Droid.Resource.Id.clip;
+			global::com.refractored.monodroidtoolkit.Resource.Id.clip_horizontal = global::Wiwii.Droid.Resource.Id.clip_horizontal;
+			global::com.refractored.monodroidtoolkit.Resource.Id.clip_vertical = global::Wiwii.Droid.Resource.Id.clip_vertical;
+			global::com.refractored.monodroidtoolkit.Resource.Id.end = global::Wiwii.Droid.Resource.Id.end;
+			global::com.refractored.monodroidtoolkit.Resource.Id.fill = global::Wiwii.Droid.Resource.Id.fill;
+			global::com.refractored.monodroidtoolkit.Resource.Id.fill_horizontal = global::Wiwii.Droid.Resource.Id.fill_horizontal;
+			global::com.refractored.monodroidtoolkit.Resource.Id.fill_vertical = global::Wiwii.Droid.Resource.Id.fill_vertical;
+			global::com.refractored.monodroidtoolkit.Resource.Id.left = global::Wiwii.Droid.Resource.Id.left;
+			global::com.refractored.monodroidtoolkit.Resource.Id.right = global::Wiwii.Droid.Resource.Id.right;
+			global::com.refractored.monodroidtoolkit.Resource.Id.start = global::Wiwii.Droid.Resource.Id.start;
+			global::com.refractored.monodroidtoolkit.Resource.Id.top = global::Wiwii.Droid.Resource.Id.top;
+			global::com.refractored.monodroidtoolkit.Resource.Integer.circular_indeterminent_interval = global::Wiwii.Droid.Resource.Integer.circular_indeterminent_interval;
+			global::com.refractored.monodroidtoolkit.Resource.Integer.progressbutton_indeterminent_interval = global::Wiwii.Droid.Resource.Integer.progressbutton_indeterminent_interval;
+			global::com.refractored.monodroidtoolkit.Resource.Style.CircularProgressBar = global::Wiwii.Droid.Resource.Style.CircularProgressBar;
+			global::com.refractored.monodroidtoolkit.Resource.Style.CircularProgressBarLight = global::Wiwii.Droid.Resource.Style.CircularProgressBarLight;
+			global::com.refractored.monodroidtoolkit.Resource.Style.ProgressButton = global::Wiwii.Droid.Resource.Style.ProgressButton;
+			global::com.refractored.monodroidtoolkit.Resource.Style.ProgressButton_Pin = global::Wiwii.Droid.Resource.Style.ProgressButton_Pin;
+			global::com.refractored.monodroidtoolkit.Resource.Styleable.HoloCircularProgressBar = global::Wiwii.Droid.Resource.Styleable.HoloCircularProgressBar;
+			global::com.refractored.monodroidtoolkit.Resource.Styleable.HoloCircularProgressBar_circular_gravity = global::Wiwii.Droid.Resource.Styleable.HoloCircularProgressBar_circular_gravity;
+			global::com.refractored.monodroidtoolkit.Resource.Styleable.HoloCircularProgressBar_circular_indeterminate = global::Wiwii.Droid.Resource.Styleable.HoloCircularProgressBar_circular_indeterminate;
+			global::com.refractored.monodroidtoolkit.Resource.Styleable.HoloCircularProgressBar_circular_indeterminate_interval = global::Wiwii.Droid.Resource.Styleable.HoloCircularProgressBar_circular_indeterminate_interval;
+			global::com.refractored.monodroidtoolkit.Resource.Styleable.HoloCircularProgressBar_circular_marker_progress = global::Wiwii.Droid.Resource.Styleable.HoloCircularProgressBar_circular_marker_progress;
+			global::com.refractored.monodroidtoolkit.Resource.Styleable.HoloCircularProgressBar_circular_progress = global::Wiwii.Droid.Resource.Styleable.HoloCircularProgressBar_circular_progress;
+			global::com.refractored.monodroidtoolkit.Resource.Styleable.HoloCircularProgressBar_circular_progress_background_color = global::Wiwii.Droid.Resource.Styleable.HoloCircularProgressBar_circular_progress_background_color;
+			global::com.refractored.monodroidtoolkit.Resource.Styleable.HoloCircularProgressBar_circular_progress_color = global::Wiwii.Droid.Resource.Styleable.HoloCircularProgressBar_circular_progress_color;
+			global::com.refractored.monodroidtoolkit.Resource.Styleable.HoloCircularProgressBar_circular_stroke_width = global::Wiwii.Droid.Resource.Styleable.HoloCircularProgressBar_circular_stroke_width;
+			global::com.refractored.monodroidtoolkit.Resource.Styleable.ProgressButton = global::Wiwii.Droid.Resource.Styleable.ProgressButton;
+			global::com.refractored.monodroidtoolkit.Resource.Styleable.ProgressButton_android_clickable = global::Wiwii.Droid.Resource.Styleable.ProgressButton_android_clickable;
+			global::com.refractored.monodroidtoolkit.Resource.Styleable.ProgressButton_android_focusable = global::Wiwii.Droid.Resource.Styleable.ProgressButton_android_focusable;
+			global::com.refractored.monodroidtoolkit.Resource.Styleable.ProgressButton_android_selectableItemBackground = global::Wiwii.Droid.Resource.Styleable.ProgressButton_android_selectableItemBackground;
+			global::com.refractored.monodroidtoolkit.Resource.Styleable.ProgressButton_circleColor = global::Wiwii.Droid.Resource.Styleable.ProgressButton_circleColor;
+			global::com.refractored.monodroidtoolkit.Resource.Styleable.ProgressButton_indeterminate = global::Wiwii.Droid.Resource.Styleable.ProgressButton_indeterminate;
+			global::com.refractored.monodroidtoolkit.Resource.Styleable.ProgressButton_indeterminate_interval = global::Wiwii.Droid.Resource.Styleable.ProgressButton_indeterminate_interval;
+			global::com.refractored.monodroidtoolkit.Resource.Styleable.ProgressButton_innerSize = global::Wiwii.Droid.Resource.Styleable.ProgressButton_innerSize;
+			global::com.refractored.monodroidtoolkit.Resource.Styleable.ProgressButton_max = global::Wiwii.Droid.Resource.Styleable.ProgressButton_max;
+			global::com.refractored.monodroidtoolkit.Resource.Styleable.ProgressButton_pinned = global::Wiwii.Droid.Resource.Styleable.ProgressButton_pinned;
+			global::com.refractored.monodroidtoolkit.Resource.Styleable.ProgressButton_pinnedDrawable = global::Wiwii.Droid.Resource.Styleable.ProgressButton_pinnedDrawable;
+			global::com.refractored.monodroidtoolkit.Resource.Styleable.ProgressButton_progress = global::Wiwii.Droid.Resource.Styleable.ProgressButton_progress;
+			global::com.refractored.monodroidtoolkit.Resource.Styleable.ProgressButton_progressColor = global::Wiwii.Droid.Resource.Styleable.ProgressButton_progressColor;
+			global::com.refractored.monodroidtoolkit.Resource.Styleable.ProgressButton_shadowDrawable = global::Wiwii.Droid.Resource.Styleable.ProgressButton_shadowDrawable;
+			global::com.refractored.monodroidtoolkit.Resource.Styleable.ProgressButton_unpinnedDrawable = global::Wiwii.Droid.Resource.Styleable.ProgressButton_unpinnedDrawable;
+			global::com.refractored.monodroidtoolkit.Resource.Styleable.Theme = global::Wiwii.Droid.Resource.Styleable.Theme;
+			global::com.refractored.monodroidtoolkit.Resource.Styleable.Theme_circularProgressBarStyle = global::Wiwii.Droid.Resource.Styleable.Theme_circularProgressBarStyle;
 			global::Syncfusion.XForms.Android.Core.Resource.Drawable.inputlayout_togglecollapseicon = global::Wiwii.Droid.Resource.Drawable.inputlayout_togglecollapseicon;
 			global::Syncfusion.XForms.Android.Core.Resource.Drawable.inputlayout_togglevisibleicon = global::Wiwii.Droid.Resource.Drawable.inputlayout_togglevisibleicon;
 			global::Com.Syncfusion.Gauges.Resource.Attribute.barPointerColor = global::Wiwii.Droid.Resource.Attribute.barPointerColor;
@@ -2816,8 +2921,14 @@ namespace Wiwii.Droid
 			// aapt resource value: 0x7f0100be
 			public const int checkedTextViewStyle = 2130772158;
 			
+			// aapt resource value: 0x7f0101fc
+			public const int circleColor = 2130772476;
+			
 			// aapt resource value: 0x7f01017a
 			public const int circularGaugeScaleDirection = 2130772346;
+			
+			// aapt resource value: 0x7f01020d
+			public const int circularProgressBarStyle = 2130772493;
 			
 			// aapt resource value: 0x7f010178
 			public const int circularScaleInterval = 2130772344;
@@ -2872,6 +2983,30 @@ namespace Wiwii.Droid
 			
 			// aapt resource value: 0x7f01019c
 			public const int circularScaleShowTicks = 2130772380;
+			
+			// aapt resource value: 0x7f010205
+			public const int circular_gravity = 2130772485;
+			
+			// aapt resource value: 0x7f01020b
+			public const int circular_indeterminate = 2130772491;
+			
+			// aapt resource value: 0x7f01020c
+			public const int circular_indeterminate_interval = 2130772492;
+			
+			// aapt resource value: 0x7f010208
+			public const int circular_marker_progress = 2130772488;
+			
+			// aapt resource value: 0x7f010207
+			public const int circular_progress = 2130772487;
+			
+			// aapt resource value: 0x7f01020a
+			public const int circular_progress_background_color = 2130772490;
+			
+			// aapt resource value: 0x7f010209
+			public const int circular_progress_color = 2130772489;
+			
+			// aapt resource value: 0x7f010206
+			public const int circular_stroke_width = 2130772486;
 			
 			// aapt resource value: 0x7f0100ee
 			public const int closeIcon = 2130772206;
@@ -3191,11 +3326,20 @@ namespace Wiwii.Droid
 			// aapt resource value: 0x7f010095
 			public const int imageButtonStyle = 2130772117;
 			
+			// aapt resource value: 0x7f010203
+			public const int indeterminate = 2130772483;
+			
 			// aapt resource value: 0x7f010034
 			public const int indeterminateProgressStyle = 2130772020;
 			
+			// aapt resource value: 0x7f010204
+			public const int indeterminate_interval = 2130772484;
+			
 			// aapt resource value: 0x7f010041
 			public const int initialActivityCount = 2130772033;
+			
+			// aapt resource value: 0x7f010201
+			public const int innerSize = 2130772481;
 			
 			// aapt resource value: 0x7f010149
 			public const int insetForeground = 2130772297;
@@ -3313,6 +3457,9 @@ namespace Wiwii.Droid
 			
 			// aapt resource value: 0x7f0101bf
 			public const int markerShape = 2130772415;
+			
+			// aapt resource value: 0x7f0101fb
+			public const int max = 2130772475;
 			
 			// aapt resource value: 0x7f01014b
 			public const int maxActionInlineWidth = 2130772299;
@@ -3461,6 +3608,12 @@ namespace Wiwii.Droid
 			// aapt resource value: 0x7f010169
 			public const int passwordToggleTintMode = 2130772329;
 			
+			// aapt resource value: 0x7f010202
+			public const int pinned = 2130772482;
+			
+			// aapt resource value: 0x7f0101fe
+			public const int pinnedDrawable = 2130772478;
+			
 			// aapt resource value: 0x7f010091
 			public const int popupMenuStyle = 2130772113;
 			
@@ -3476,11 +3629,20 @@ namespace Wiwii.Droid
 			// aapt resource value: 0x7f01013e
 			public const int pressedTranslationZ = 2130772286;
 			
+			// aapt resource value: 0x7f0101fa
+			public const int progress = 2130772474;
+			
 			// aapt resource value: 0x7f010035
 			public const int progressBarPadding = 2130772021;
 			
 			// aapt resource value: 0x7f010033
 			public const int progressBarStyle = 2130772019;
+			
+			// aapt resource value: 0x7f0101f9
+			public const int progressButtonStyle = 2130772473;
+			
+			// aapt resource value: 0x7f0101fd
+			public const int progressColor = 2130772477;
 			
 			// aapt resource value: 0x7f0100f5
 			public const int queryBackground = 2130772213;
@@ -3742,6 +3904,9 @@ namespace Wiwii.Droid
 			
 			// aapt resource value: 0x7f01008a
 			public const int selectableItemBackgroundBorderless = 2130772106;
+			
+			// aapt resource value: 0x7f010200
+			public const int shadowDrawable = 2130772480;
 			
 			// aapt resource value: 0x7f0100dc
 			public const int showAsAction = 2130772188;
@@ -4016,6 +4181,9 @@ namespace Wiwii.Droid
 			// aapt resource value: 0x7f0100fb
 			public const int trackTintMode = 2130772219;
 			
+			// aapt resource value: 0x7f0101ff
+			public const int unpinnedDrawable = 2130772479;
+			
 			// aapt resource value: 0x7f010140
 			public const int useCompatPadding = 2130772288;
 			
@@ -4093,44 +4261,44 @@ namespace Wiwii.Droid
 		public partial class Color
 		{
 			
-			// aapt resource value: 0x7f0e004f
-			public const int abc_background_cache_hint_selector_material_dark = 2131624015;
+			// aapt resource value: 0x7f0e006e
+			public const int abc_background_cache_hint_selector_material_dark = 2131624046;
 			
-			// aapt resource value: 0x7f0e0050
-			public const int abc_background_cache_hint_selector_material_light = 2131624016;
+			// aapt resource value: 0x7f0e006f
+			public const int abc_background_cache_hint_selector_material_light = 2131624047;
 			
-			// aapt resource value: 0x7f0e0051
-			public const int abc_btn_colored_borderless_text_material = 2131624017;
+			// aapt resource value: 0x7f0e0070
+			public const int abc_btn_colored_borderless_text_material = 2131624048;
 			
-			// aapt resource value: 0x7f0e0052
-			public const int abc_btn_colored_text_material = 2131624018;
+			// aapt resource value: 0x7f0e0071
+			public const int abc_btn_colored_text_material = 2131624049;
 			
-			// aapt resource value: 0x7f0e0053
-			public const int abc_color_highlight_material = 2131624019;
+			// aapt resource value: 0x7f0e0072
+			public const int abc_color_highlight_material = 2131624050;
 			
-			// aapt resource value: 0x7f0e0054
-			public const int abc_hint_foreground_material_dark = 2131624020;
+			// aapt resource value: 0x7f0e0073
+			public const int abc_hint_foreground_material_dark = 2131624051;
 			
-			// aapt resource value: 0x7f0e0055
-			public const int abc_hint_foreground_material_light = 2131624021;
+			// aapt resource value: 0x7f0e0074
+			public const int abc_hint_foreground_material_light = 2131624052;
 			
 			// aapt resource value: 0x7f0e0004
 			public const int abc_input_method_navigation_guard = 2131623940;
 			
-			// aapt resource value: 0x7f0e0056
-			public const int abc_primary_text_disable_only_material_dark = 2131624022;
+			// aapt resource value: 0x7f0e0075
+			public const int abc_primary_text_disable_only_material_dark = 2131624053;
 			
-			// aapt resource value: 0x7f0e0057
-			public const int abc_primary_text_disable_only_material_light = 2131624023;
+			// aapt resource value: 0x7f0e0076
+			public const int abc_primary_text_disable_only_material_light = 2131624054;
 			
-			// aapt resource value: 0x7f0e0058
-			public const int abc_primary_text_material_dark = 2131624024;
+			// aapt resource value: 0x7f0e0077
+			public const int abc_primary_text_material_dark = 2131624055;
 			
-			// aapt resource value: 0x7f0e0059
-			public const int abc_primary_text_material_light = 2131624025;
+			// aapt resource value: 0x7f0e0078
+			public const int abc_primary_text_material_light = 2131624056;
 			
-			// aapt resource value: 0x7f0e005a
-			public const int abc_search_url_text = 2131624026;
+			// aapt resource value: 0x7f0e0079
+			public const int abc_search_url_text = 2131624057;
 			
 			// aapt resource value: 0x7f0e0005
 			public const int abc_search_url_text_normal = 2131623941;
@@ -4141,29 +4309,29 @@ namespace Wiwii.Droid
 			// aapt resource value: 0x7f0e0007
 			public const int abc_search_url_text_selected = 2131623943;
 			
-			// aapt resource value: 0x7f0e005b
-			public const int abc_secondary_text_material_dark = 2131624027;
+			// aapt resource value: 0x7f0e007a
+			public const int abc_secondary_text_material_dark = 2131624058;
 			
-			// aapt resource value: 0x7f0e005c
-			public const int abc_secondary_text_material_light = 2131624028;
+			// aapt resource value: 0x7f0e007b
+			public const int abc_secondary_text_material_light = 2131624059;
 			
-			// aapt resource value: 0x7f0e005d
-			public const int abc_tint_btn_checkable = 2131624029;
+			// aapt resource value: 0x7f0e007c
+			public const int abc_tint_btn_checkable = 2131624060;
 			
-			// aapt resource value: 0x7f0e005e
-			public const int abc_tint_default = 2131624030;
+			// aapt resource value: 0x7f0e007d
+			public const int abc_tint_default = 2131624061;
 			
-			// aapt resource value: 0x7f0e005f
-			public const int abc_tint_edittext = 2131624031;
+			// aapt resource value: 0x7f0e007e
+			public const int abc_tint_edittext = 2131624062;
 			
-			// aapt resource value: 0x7f0e0060
-			public const int abc_tint_seek_thumb = 2131624032;
+			// aapt resource value: 0x7f0e007f
+			public const int abc_tint_seek_thumb = 2131624063;
 			
-			// aapt resource value: 0x7f0e0061
-			public const int abc_tint_spinner = 2131624033;
+			// aapt resource value: 0x7f0e0080
+			public const int abc_tint_spinner = 2131624064;
 			
-			// aapt resource value: 0x7f0e0062
-			public const int abc_tint_switch_track = 2131624034;
+			// aapt resource value: 0x7f0e0081
+			public const int abc_tint_switch_track = 2131624065;
 			
 			// aapt resource value: 0x7f0e0008
 			public const int accent_material_dark = 2131623944;
@@ -4219,20 +4387,20 @@ namespace Wiwii.Droid
 			// aapt resource value: 0x7f0e0003
 			public const int cardview_shadow_start_color = 2131623939;
 			
-			// aapt resource value: 0x7f0e004e
-			public const int colorAccent = 2131624014;
+			// aapt resource value: 0x7f0e006d
+			public const int colorAccent = 2131624045;
 			
-			// aapt resource value: 0x7f0e004c
-			public const int colorPrimary = 2131624012;
+			// aapt resource value: 0x7f0e006b
+			public const int colorPrimary = 2131624043;
 			
-			// aapt resource value: 0x7f0e004d
-			public const int colorPrimaryDark = 2131624013;
+			// aapt resource value: 0x7f0e006c
+			public const int colorPrimaryDark = 2131624044;
 			
 			// aapt resource value: 0x7f0e0040
 			public const int design_bottom_navigation_shadow_color = 2131624000;
 			
-			// aapt resource value: 0x7f0e0063
-			public const int design_error = 2131624035;
+			// aapt resource value: 0x7f0e0082
+			public const int design_error = 2131624066;
 			
 			// aapt resource value: 0x7f0e0041
 			public const int design_fab_shadow_end_color = 2131624001;
@@ -4258,8 +4426,8 @@ namespace Wiwii.Droid
 			// aapt resource value: 0x7f0e0048
 			public const int design_snackbar_background_color = 2131624008;
 			
-			// aapt resource value: 0x7f0e0064
-			public const int design_tint_password_toggle = 2131624036;
+			// aapt resource value: 0x7f0e0083
+			public const int design_tint_password_toggle = 2131624067;
 			
 			// aapt resource value: 0x7f0e0016
 			public const int dim_foreground_disabled_material_dark = 2131623958;
@@ -4288,8 +4456,8 @@ namespace Wiwii.Droid
 			// aapt resource value: 0x7f0e001e
 			public const int highlighted_text_material_light = 2131623966;
 			
-			// aapt resource value: 0x7f0e004b
-			public const int launcher_background = 2131624011;
+			// aapt resource value: 0x7f0e006a
+			public const int launcher_background = 2131624042;
 			
 			// aapt resource value: 0x7f0e001f
 			public const int material_blue_grey_800 = 2131623967;
@@ -4360,6 +4528,99 @@ namespace Wiwii.Droid
 			// aapt resource value: 0x7f0e0032
 			public const int primary_text_disabled_material_light = 2131623986;
 			
+			// aapt resource value: 0x7f0e004b
+			public const int progress_default_circle_color = 2131624011;
+			
+			// aapt resource value: 0x7f0e004c
+			public const int progress_default_progress_color = 2131624012;
+			
+			// aapt resource value: 0x7f0e004d
+			public const int refractored_background_dark = 2131624013;
+			
+			// aapt resource value: 0x7f0e0052
+			public const int refractored_background_holo_dark = 2131624018;
+			
+			// aapt resource value: 0x7f0e0053
+			public const int refractored_background_holo_light = 2131624019;
+			
+			// aapt resource value: 0x7f0e004e
+			public const int refractored_background_light = 2131624014;
+			
+			// aapt resource value: 0x7f0e004f
+			public const int refractored_bright_foreground_dark = 2131624015;
+			
+			// aapt resource value: 0x7f0e0051
+			public const int refractored_bright_foreground_dark_disabled = 2131624017;
+			
+			// aapt resource value: 0x7f0e0056
+			public const int refractored_bright_foreground_disabled_holo_dark = 2131624022;
+			
+			// aapt resource value: 0x7f0e0057
+			public const int refractored_bright_foreground_disabled_holo_light = 2131624023;
+			
+			// aapt resource value: 0x7f0e0054
+			public const int refractored_bright_foreground_holo_dark = 2131624020;
+			
+			// aapt resource value: 0x7f0e0055
+			public const int refractored_bright_foreground_holo_light = 2131624021;
+			
+			// aapt resource value: 0x7f0e0050
+			public const int refractored_bright_foreground_light = 2131624016;
+			
+			// aapt resource value: 0x7f0e0059
+			public const int refractored_dim_foreground_disabled_holo_dark = 2131624025;
+			
+			// aapt resource value: 0x7f0e005c
+			public const int refractored_dim_foreground_disabled_holo_light = 2131624028;
+			
+			// aapt resource value: 0x7f0e0058
+			public const int refractored_dim_foreground_holo_dark = 2131624024;
+			
+			// aapt resource value: 0x7f0e005b
+			public const int refractored_dim_foreground_holo_light = 2131624027;
+			
+			// aapt resource value: 0x7f0e005e
+			public const int refractored_highlighted_text_holo_dark = 2131624030;
+			
+			// aapt resource value: 0x7f0e005f
+			public const int refractored_highlighted_text_holo_light = 2131624031;
+			
+			// aapt resource value: 0x7f0e005a
+			public const int refractored_hint_foreground_holo_dark = 2131624026;
+			
+			// aapt resource value: 0x7f0e005d
+			public const int refractored_hint_foreground_holo_light = 2131624029;
+			
+			// aapt resource value: 0x7f0e0069
+			public const int refractored_holo_blue_bright = 2131624041;
+			
+			// aapt resource value: 0x7f0e0063
+			public const int refractored_holo_blue_dark = 2131624035;
+			
+			// aapt resource value: 0x7f0e0060
+			public const int refractored_holo_blue_light = 2131624032;
+			
+			// aapt resource value: 0x7f0e0064
+			public const int refractored_holo_green_dark = 2131624036;
+			
+			// aapt resource value: 0x7f0e0061
+			public const int refractored_holo_green_light = 2131624033;
+			
+			// aapt resource value: 0x7f0e0068
+			public const int refractored_holo_orange_dark = 2131624040;
+			
+			// aapt resource value: 0x7f0e0067
+			public const int refractored_holo_orange_light = 2131624039;
+			
+			// aapt resource value: 0x7f0e0066
+			public const int refractored_holo_purple = 2131624038;
+			
+			// aapt resource value: 0x7f0e0065
+			public const int refractored_holo_red_dark = 2131624037;
+			
+			// aapt resource value: 0x7f0e0062
+			public const int refractored_holo_red_light = 2131624034;
+			
 			// aapt resource value: 0x7f0e0033
 			public const int ripple_material_dark = 2131623987;
 			
@@ -4384,11 +4645,11 @@ namespace Wiwii.Droid
 			// aapt resource value: 0x7f0e003a
 			public const int switch_thumb_disabled_material_light = 2131623994;
 			
-			// aapt resource value: 0x7f0e0065
-			public const int switch_thumb_material_dark = 2131624037;
+			// aapt resource value: 0x7f0e0084
+			public const int switch_thumb_material_dark = 2131624068;
 			
-			// aapt resource value: 0x7f0e0066
-			public const int switch_thumb_material_light = 2131624038;
+			// aapt resource value: 0x7f0e0085
+			public const int switch_thumb_material_light = 2131624069;
 			
 			// aapt resource value: 0x7f0e003b
 			public const int switch_thumb_normal_material_dark = 2131623995;
@@ -4889,6 +5150,9 @@ namespace Wiwii.Droid
 			// aapt resource value: 0x7f0900a4
 			public const int pading_top = 2131296420;
 			
+			// aapt resource value: 0x7f0900a6
+			public const int progress_inner_size = 2131296422;
+			
 			// aapt resource value: 0x7f090062
 			public const int tooltip_corner_radius = 2131296354;
 			
@@ -5178,26 +5442,26 @@ namespace Wiwii.Droid
 			// aapt resource value: 0x7f020053
 			public const int avd_hide_password = 2130837587;
 			
-			// aapt resource value: 0x7f020139
-			public const int avd_hide_password_1 = 2130837817;
+			// aapt resource value: 0x7f02013e
+			public const int avd_hide_password_1 = 2130837822;
 			
-			// aapt resource value: 0x7f02013a
-			public const int avd_hide_password_2 = 2130837818;
+			// aapt resource value: 0x7f02013f
+			public const int avd_hide_password_2 = 2130837823;
 			
-			// aapt resource value: 0x7f02013b
-			public const int avd_hide_password_3 = 2130837819;
+			// aapt resource value: 0x7f020140
+			public const int avd_hide_password_3 = 2130837824;
 			
 			// aapt resource value: 0x7f020054
 			public const int avd_show_password = 2130837588;
 			
-			// aapt resource value: 0x7f02013c
-			public const int avd_show_password_1 = 2130837820;
+			// aapt resource value: 0x7f020141
+			public const int avd_show_password_1 = 2130837825;
 			
-			// aapt resource value: 0x7f02013d
-			public const int avd_show_password_2 = 2130837821;
+			// aapt resource value: 0x7f020142
+			public const int avd_show_password_2 = 2130837826;
 			
-			// aapt resource value: 0x7f02013e
-			public const int avd_show_password_3 = 2130837822;
+			// aapt resource value: 0x7f020143
+			public const int avd_show_password_3 = 2130837827;
 			
 			// aapt resource value: 0x7f020055
 			public const int design_bottom_navigation_item_background = 2130837589;
@@ -5853,11 +6117,11 @@ namespace Wiwii.Droid
 			// aapt resource value: 0x7f02012e
 			public const int notification_icon_background = 2130837806;
 			
-			// aapt resource value: 0x7f020137
-			public const int notification_template_icon_bg = 2130837815;
+			// aapt resource value: 0x7f02013c
+			public const int notification_template_icon_bg = 2130837820;
 			
-			// aapt resource value: 0x7f020138
-			public const int notification_template_icon_low_bg = 2130837816;
+			// aapt resource value: 0x7f02013d
+			public const int notification_template_icon_low_bg = 2130837821;
 			
 			// aapt resource value: 0x7f02012f
 			public const int notification_tile_bg = 2130837807;
@@ -5866,22 +6130,37 @@ namespace Wiwii.Droid
 			public const int notify_panel_notification_icon_bg = 2130837808;
 			
 			// aapt resource value: 0x7f020131
-			public const int speed = 2130837809;
+			public const int pin_progress_pinned = 2130837809;
 			
 			// aapt resource value: 0x7f020132
-			public const int test = 2130837810;
+			public const int pin_progress_shadow = 2130837810;
 			
 			// aapt resource value: 0x7f020133
-			public const int tooltip_frame_dark = 2130837811;
+			public const int pin_progress_unpinned = 2130837811;
 			
 			// aapt resource value: 0x7f020134
-			public const int tooltip_frame_light = 2130837812;
+			public const int scrubber_control_normal_holo = 2130837812;
 			
 			// aapt resource value: 0x7f020135
-			public const int wifiilogo = 2130837813;
+			public const int scrubber_control_pressed_holo = 2130837813;
 			
 			// aapt resource value: 0x7f020136
-			public const int wifiilogo1 = 2130837814;
+			public const int speed = 2130837814;
+			
+			// aapt resource value: 0x7f020137
+			public const int test = 2130837815;
+			
+			// aapt resource value: 0x7f020138
+			public const int tooltip_frame_dark = 2130837816;
+			
+			// aapt resource value: 0x7f020139
+			public const int tooltip_frame_light = 2130837817;
+			
+			// aapt resource value: 0x7f02013a
+			public const int wifiilogo = 2130837818;
+			
+			// aapt resource value: 0x7f02013b
+			public const int wifiilogo1 = 2130837819;
 			
 			static Drawable()
 			{
@@ -5914,41 +6193,41 @@ namespace Wiwii.Droid
 			// aapt resource value: 0x7f0a0037
 			public const int SYM = 2131361847;
 			
-			// aapt resource value: 0x7f0a00e2
-			public const int action0 = 2131362018;
+			// aapt resource value: 0x7f0a00e3
+			public const int action0 = 2131362019;
 			
-			// aapt resource value: 0x7f0a009f
-			public const int action_bar = 2131361951;
+			// aapt resource value: 0x7f0a00a0
+			public const int action_bar = 2131361952;
 			
 			// aapt resource value: 0x7f0a0001
 			public const int action_bar_activity_content = 2131361793;
 			
-			// aapt resource value: 0x7f0a009e
-			public const int action_bar_container = 2131361950;
+			// aapt resource value: 0x7f0a009f
+			public const int action_bar_container = 2131361951;
 			
-			// aapt resource value: 0x7f0a009a
-			public const int action_bar_root = 2131361946;
+			// aapt resource value: 0x7f0a009b
+			public const int action_bar_root = 2131361947;
 			
 			// aapt resource value: 0x7f0a0002
 			public const int action_bar_spinner = 2131361794;
 			
+			// aapt resource value: 0x7f0a0080
+			public const int action_bar_subtitle = 2131361920;
+			
 			// aapt resource value: 0x7f0a007f
-			public const int action_bar_subtitle = 2131361919;
-			
-			// aapt resource value: 0x7f0a007e
-			public const int action_bar_title = 2131361918;
-			
-			// aapt resource value: 0x7f0a00df
-			public const int action_container = 2131362015;
-			
-			// aapt resource value: 0x7f0a00a0
-			public const int action_context_bar = 2131361952;
-			
-			// aapt resource value: 0x7f0a00e6
-			public const int action_divider = 2131362022;
+			public const int action_bar_title = 2131361919;
 			
 			// aapt resource value: 0x7f0a00e0
-			public const int action_image = 2131362016;
+			public const int action_container = 2131362016;
+			
+			// aapt resource value: 0x7f0a00a1
+			public const int action_context_bar = 2131361953;
+			
+			// aapt resource value: 0x7f0a00e7
+			public const int action_divider = 2131362023;
+			
+			// aapt resource value: 0x7f0a00e1
+			public const int action_image = 2131362017;
 			
 			// aapt resource value: 0x7f0a0003
 			public const int action_menu_divider = 2131361795;
@@ -5956,29 +6235,29 @@ namespace Wiwii.Droid
 			// aapt resource value: 0x7f0a0004
 			public const int action_menu_presenter = 2131361796;
 			
+			// aapt resource value: 0x7f0a009d
+			public const int action_mode_bar = 2131361949;
+			
 			// aapt resource value: 0x7f0a009c
-			public const int action_mode_bar = 2131361948;
-			
-			// aapt resource value: 0x7f0a009b
-			public const int action_mode_bar_stub = 2131361947;
-			
-			// aapt resource value: 0x7f0a0080
-			public const int action_mode_close_button = 2131361920;
-			
-			// aapt resource value: 0x7f0a00e1
-			public const int action_text = 2131362017;
-			
-			// aapt resource value: 0x7f0a00ef
-			public const int actions = 2131362031;
+			public const int action_mode_bar_stub = 2131361948;
 			
 			// aapt resource value: 0x7f0a0081
-			public const int activity_chooser_view_content = 2131361921;
+			public const int action_mode_close_button = 2131361921;
+			
+			// aapt resource value: 0x7f0a00e2
+			public const int action_text = 2131362018;
+			
+			// aapt resource value: 0x7f0a00f0
+			public const int actions = 2131362032;
+			
+			// aapt resource value: 0x7f0a0082
+			public const int activity_chooser_view_content = 2131361922;
 			
 			// aapt resource value: 0x7f0a0027
 			public const int add = 2131361831;
 			
-			// aapt resource value: 0x7f0a0093
-			public const int alertTitle = 2131361939;
+			// aapt resource value: 0x7f0a0094
+			public const int alertTitle = 2131361940;
 			
 			// aapt resource value: 0x7f0a0052
 			public const int all = 2131361874;
@@ -6016,17 +6295,17 @@ namespace Wiwii.Droid
 			// aapt resource value: 0x7f0a003d
 			public const int bottom = 2131361853;
 			
-			// aapt resource value: 0x7f0a00ae
-			public const int bottomtab_navarea = 2131361966;
-			
 			// aapt resource value: 0x7f0a00af
-			public const int bottomtab_tabbar = 2131361967;
+			public const int bottomtab_navarea = 2131361967;
 			
-			// aapt resource value: 0x7f0a0086
-			public const int buttonPanel = 2131361926;
+			// aapt resource value: 0x7f0a00b0
+			public const int bottomtab_tabbar = 2131361968;
 			
-			// aapt resource value: 0x7f0a00e3
-			public const int cancel_action = 2131362019;
+			// aapt resource value: 0x7f0a0087
+			public const int buttonPanel = 2131361927;
+			
+			// aapt resource value: 0x7f0a00e4
+			public const int cancel_action = 2131362020;
 			
 			// aapt resource value: 0x7f0a0045
 			public const int center = 2131361861;
@@ -6037,14 +6316,17 @@ namespace Wiwii.Droid
 			// aapt resource value: 0x7f0a0047
 			public const int center_vertical = 2131361863;
 			
-			// aapt resource value: 0x7f0a0096
-			public const int checkbox = 2131361942;
+			// aapt resource value: 0x7f0a0097
+			public const int checkbox = 2131361943;
 			
-			// aapt resource value: 0x7f0a00eb
-			public const int chronometer = 2131362027;
+			// aapt resource value: 0x7f0a00ec
+			public const int chronometer = 2131362028;
 			
 			// aapt resource value: 0x7f0a006f
 			public const int circle = 2131361903;
+			
+			// aapt resource value: 0x7f0a007e
+			public const int clip = 2131361918;
 			
 			// aapt resource value: 0x7f0a004e
 			public const int clip_horizontal = 2131361870;
@@ -6058,41 +6340,41 @@ namespace Wiwii.Droid
 			// aapt resource value: 0x7f0a0039
 			public const int collapseActionView = 2131361849;
 			
-			// aapt resource value: 0x7f0a00b3
-			public const int container = 2131361971;
-			
-			// aapt resource value: 0x7f0a0089
-			public const int contentPanel = 2131361929;
-			
 			// aapt resource value: 0x7f0a00b4
-			public const int coordinator = 2131361972;
+			public const int container = 2131361972;
+			
+			// aapt resource value: 0x7f0a008a
+			public const int contentPanel = 2131361930;
+			
+			// aapt resource value: 0x7f0a00b5
+			public const int coordinator = 2131361973;
+			
+			// aapt resource value: 0x7f0a0091
+			public const int custom = 2131361937;
 			
 			// aapt resource value: 0x7f0a0090
-			public const int custom = 2131361936;
+			public const int customPanel = 2131361936;
 			
-			// aapt resource value: 0x7f0a008f
-			public const int customPanel = 2131361935;
+			// aapt resource value: 0x7f0a009e
+			public const int decor_content_parent = 2131361950;
 			
-			// aapt resource value: 0x7f0a009d
-			public const int decor_content_parent = 2131361949;
+			// aapt resource value: 0x7f0a0084
+			public const int default_activity_button = 2131361924;
 			
-			// aapt resource value: 0x7f0a0083
-			public const int default_activity_button = 2131361923;
+			// aapt resource value: 0x7f0a00b7
+			public const int design_bottom_sheet = 2131361975;
 			
-			// aapt resource value: 0x7f0a00b6
-			public const int design_bottom_sheet = 2131361974;
+			// aapt resource value: 0x7f0a00be
+			public const int design_menu_item_action_area = 2131361982;
 			
 			// aapt resource value: 0x7f0a00bd
-			public const int design_menu_item_action_area = 2131361981;
+			public const int design_menu_item_action_area_stub = 2131361981;
 			
 			// aapt resource value: 0x7f0a00bc
-			public const int design_menu_item_action_area_stub = 2131361980;
+			public const int design_menu_item_text = 2131361980;
 			
 			// aapt resource value: 0x7f0a00bb
-			public const int design_menu_item_text = 2131361979;
-			
-			// aapt resource value: 0x7f0a00ba
-			public const int design_navigation_view = 2131361978;
+			public const int design_navigation_view = 2131361979;
 			
 			// aapt resource value: 0x7f0a0070
 			public const int diamond = 2131361904;
@@ -6100,20 +6382,20 @@ namespace Wiwii.Droid
 			// aapt resource value: 0x7f0a0020
 			public const int disableHome = 2131361824;
 			
-			// aapt resource value: 0x7f0a00a1
-			public const int edit_query = 2131361953;
+			// aapt resource value: 0x7f0a00a2
+			public const int edit_query = 2131361954;
 			
 			// aapt resource value: 0x7f0a007a
 			public const int eightCrossEightDotMatrix = 2131361914;
 			
-			// aapt resource value: 0x7f0a00c0
-			public const int eightsegment = 2131361984;
+			// aapt resource value: 0x7f0a00c1
+			public const int eightsegment = 2131361985;
 			
 			// aapt resource value: 0x7f0a0030
 			public const int end = 2131361840;
 			
-			// aapt resource value: 0x7f0a00f1
-			public const int end_padder = 2131362033;
+			// aapt resource value: 0x7f0a00f2
+			public const int end_padder = 2131362034;
 			
 			// aapt resource value: 0x7f0a003f
 			public const int enterAlways = 2131361855;
@@ -6124,11 +6406,11 @@ namespace Wiwii.Droid
 			// aapt resource value: 0x7f0a0041
 			public const int exitUntilCollapsed = 2131361857;
 			
-			// aapt resource value: 0x7f0a0082
-			public const int expand_activities_button = 2131361922;
+			// aapt resource value: 0x7f0a0083
+			public const int expand_activities_button = 2131361923;
 			
-			// aapt resource value: 0x7f0a0095
-			public const int expanded_menu = 2131361941;
+			// aapt resource value: 0x7f0a0096
+			public const int expanded_menu = 2131361942;
 			
 			// aapt resource value: 0x7f0a0077
 			public const int far = 2131361911;
@@ -6145,11 +6427,11 @@ namespace Wiwii.Droid
 			// aapt resource value: 0x7f0a0054
 			public const int @fixed = 2131361876;
 			
-			// aapt resource value: 0x7f0a00c3
-			public const int flyoutcontent_appbar = 2131361987;
-			
 			// aapt resource value: 0x7f0a00c4
-			public const int flyoutcontent_recycler = 2131361988;
+			public const int flyoutcontent_appbar = 2131361988;
+			
+			// aapt resource value: 0x7f0a00c5
+			public const int flyoutcontent_recycler = 2131361989;
 			
 			// aapt resource value: 0x7f0a0058
 			public const int forever = 2131361880;
@@ -6157,8 +6439,8 @@ namespace Wiwii.Droid
 			// aapt resource value: 0x7f0a0075
 			public const int forward = 2131361909;
 			
-			// aapt resource value: 0x7f0a00c1
-			public const int fourteensegment = 2131361985;
+			// aapt resource value: 0x7f0a00c2
+			public const int fourteensegment = 2131361986;
 			
 			// aapt resource value: 0x7f0a0062
 			public const int gaugeBottom = 2131361890;
@@ -6220,11 +6502,11 @@ namespace Wiwii.Droid
 			// aapt resource value: 0x7f0a0078
 			public const int horizontal = 2131361912;
 			
-			// aapt resource value: 0x7f0a0085
-			public const int icon = 2131361925;
+			// aapt resource value: 0x7f0a0086
+			public const int icon = 2131361926;
 			
-			// aapt resource value: 0x7f0a00f0
-			public const int icon_group = 2131362032;
+			// aapt resource value: 0x7f0a00f1
+			public const int icon_group = 2131362033;
 			
 			// aapt resource value: 0x7f0a003a
 			public const int ifRoom = 2131361850;
@@ -6232,8 +6514,8 @@ namespace Wiwii.Droid
 			// aapt resource value: 0x7f0a0071
 			public const int image = 2131361905;
 			
-			// aapt resource value: 0x7f0a00ec
-			public const int info = 2131362028;
+			// aapt resource value: 0x7f0a00ed
+			public const int info = 2131362029;
 			
 			// aapt resource value: 0x7f0a0072
 			public const int invertedTriangle = 2131361906;
@@ -6244,8 +6526,8 @@ namespace Wiwii.Droid
 			// aapt resource value: 0x7f0a0000
 			public const int item_touch_helper_previous_elevation = 2131361792;
 			
-			// aapt resource value: 0x7f0a00b2
-			public const int largeLabel = 2131361970;
+			// aapt resource value: 0x7f0a00b3
+			public const int largeLabel = 2131361971;
 			
 			// aapt resource value: 0x7f0a0049
 			public const int left = 2131361865;
@@ -6259,29 +6541,29 @@ namespace Wiwii.Droid
 			// aapt resource value: 0x7f0a001d
 			public const int listMode = 2131361821;
 			
-			// aapt resource value: 0x7f0a0084
-			public const int list_item = 2131361924;
-			
-			// aapt resource value: 0x7f0a00f2
-			public const int main_appbar = 2131362034;
-			
-			// aapt resource value: 0x7f0a00f5
-			public const int main_scrollview = 2131362037;
-			
-			// aapt resource value: 0x7f0a00f4
-			public const int main_tablayout = 2131362036;
+			// aapt resource value: 0x7f0a0085
+			public const int list_item = 2131361925;
 			
 			// aapt resource value: 0x7f0a00f3
-			public const int main_toolbar = 2131362035;
+			public const int main_appbar = 2131362035;
 			
-			// aapt resource value: 0x7f0a00fd
-			public const int masked = 2131362045;
+			// aapt resource value: 0x7f0a00f6
+			public const int main_scrollview = 2131362038;
 			
-			// aapt resource value: 0x7f0a00e5
-			public const int media_actions = 2131362021;
+			// aapt resource value: 0x7f0a00f5
+			public const int main_tablayout = 2131362037;
 			
-			// aapt resource value: 0x7f0a00fb
-			public const int message = 2131362043;
+			// aapt resource value: 0x7f0a00f4
+			public const int main_toolbar = 2131362036;
+			
+			// aapt resource value: 0x7f0a00fe
+			public const int masked = 2131362046;
+			
+			// aapt resource value: 0x7f0a00e6
+			public const int media_actions = 2131362022;
+			
+			// aapt resource value: 0x7f0a00fc
+			public const int message = 2131362044;
 			
 			// aapt resource value: 0x7f0a0031
 			public const int middle = 2131361841;
@@ -6289,86 +6571,86 @@ namespace Wiwii.Droid
 			// aapt resource value: 0x7f0a0053
 			public const int mini = 2131361875;
 			
-			// aapt resource value: 0x7f0a00d1
-			public const int mr_art = 2131362001;
-			
-			// aapt resource value: 0x7f0a00c6
-			public const int mr_chooser_list = 2131361990;
-			
-			// aapt resource value: 0x7f0a00c9
-			public const int mr_chooser_route_desc = 2131361993;
+			// aapt resource value: 0x7f0a00d2
+			public const int mr_art = 2131362002;
 			
 			// aapt resource value: 0x7f0a00c7
-			public const int mr_chooser_route_icon = 2131361991;
-			
-			// aapt resource value: 0x7f0a00c8
-			public const int mr_chooser_route_name = 2131361992;
-			
-			// aapt resource value: 0x7f0a00c5
-			public const int mr_chooser_title = 2131361989;
-			
-			// aapt resource value: 0x7f0a00ce
-			public const int mr_close = 2131361998;
-			
-			// aapt resource value: 0x7f0a00d4
-			public const int mr_control_divider = 2131362004;
-			
-			// aapt resource value: 0x7f0a00da
-			public const int mr_control_playback_ctrl = 2131362010;
-			
-			// aapt resource value: 0x7f0a00dd
-			public const int mr_control_subtitle = 2131362013;
-			
-			// aapt resource value: 0x7f0a00dc
-			public const int mr_control_title = 2131362012;
-			
-			// aapt resource value: 0x7f0a00db
-			public const int mr_control_title_container = 2131362011;
-			
-			// aapt resource value: 0x7f0a00cf
-			public const int mr_custom_control = 2131361999;
-			
-			// aapt resource value: 0x7f0a00d0
-			public const int mr_default_control = 2131362000;
-			
-			// aapt resource value: 0x7f0a00cb
-			public const int mr_dialog_area = 2131361995;
+			public const int mr_chooser_list = 2131361991;
 			
 			// aapt resource value: 0x7f0a00ca
-			public const int mr_expandable_area = 2131361994;
+			public const int mr_chooser_route_desc = 2131361994;
 			
-			// aapt resource value: 0x7f0a00de
-			public const int mr_group_expand_collapse = 2131362014;
+			// aapt resource value: 0x7f0a00c8
+			public const int mr_chooser_route_icon = 2131361992;
 			
-			// aapt resource value: 0x7f0a00d2
-			public const int mr_media_main_control = 2131362002;
+			// aapt resource value: 0x7f0a00c9
+			public const int mr_chooser_route_name = 2131361993;
 			
-			// aapt resource value: 0x7f0a00cd
-			public const int mr_name = 2131361997;
+			// aapt resource value: 0x7f0a00c6
+			public const int mr_chooser_title = 2131361990;
 			
-			// aapt resource value: 0x7f0a00d3
-			public const int mr_playback_control = 2131362003;
-			
-			// aapt resource value: 0x7f0a00cc
-			public const int mr_title_bar = 2131361996;
+			// aapt resource value: 0x7f0a00cf
+			public const int mr_close = 2131361999;
 			
 			// aapt resource value: 0x7f0a00d5
-			public const int mr_volume_control = 2131362005;
+			public const int mr_control_divider = 2131362005;
+			
+			// aapt resource value: 0x7f0a00db
+			public const int mr_control_playback_ctrl = 2131362011;
+			
+			// aapt resource value: 0x7f0a00de
+			public const int mr_control_subtitle = 2131362014;
+			
+			// aapt resource value: 0x7f0a00dd
+			public const int mr_control_title = 2131362013;
+			
+			// aapt resource value: 0x7f0a00dc
+			public const int mr_control_title_container = 2131362012;
+			
+			// aapt resource value: 0x7f0a00d0
+			public const int mr_custom_control = 2131362000;
+			
+			// aapt resource value: 0x7f0a00d1
+			public const int mr_default_control = 2131362001;
+			
+			// aapt resource value: 0x7f0a00cc
+			public const int mr_dialog_area = 2131361996;
+			
+			// aapt resource value: 0x7f0a00cb
+			public const int mr_expandable_area = 2131361995;
+			
+			// aapt resource value: 0x7f0a00df
+			public const int mr_group_expand_collapse = 2131362015;
+			
+			// aapt resource value: 0x7f0a00d3
+			public const int mr_media_main_control = 2131362003;
+			
+			// aapt resource value: 0x7f0a00ce
+			public const int mr_name = 2131361998;
+			
+			// aapt resource value: 0x7f0a00d4
+			public const int mr_playback_control = 2131362004;
+			
+			// aapt resource value: 0x7f0a00cd
+			public const int mr_title_bar = 2131361997;
 			
 			// aapt resource value: 0x7f0a00d6
-			public const int mr_volume_group_list = 2131362006;
+			public const int mr_volume_control = 2131362006;
 			
-			// aapt resource value: 0x7f0a00d8
-			public const int mr_volume_item_icon = 2131362008;
+			// aapt resource value: 0x7f0a00d7
+			public const int mr_volume_group_list = 2131362007;
 			
 			// aapt resource value: 0x7f0a00d9
-			public const int mr_volume_slider = 2131362009;
+			public const int mr_volume_item_icon = 2131362009;
+			
+			// aapt resource value: 0x7f0a00da
+			public const int mr_volume_slider = 2131362010;
 			
 			// aapt resource value: 0x7f0a0028
 			public const int multiply = 2131361832;
 			
-			// aapt resource value: 0x7f0a00b9
-			public const int navigation_header_container = 2131361977;
+			// aapt resource value: 0x7f0a00ba
+			public const int navigation_header_container = 2131361978;
 			
 			// aapt resource value: 0x7f0a003b
 			public const int never = 2131361851;
@@ -6379,20 +6661,20 @@ namespace Wiwii.Droid
 			// aapt resource value: 0x7f0a001e
 			public const int normal = 2131361822;
 			
-			// aapt resource value: 0x7f0a00ee
-			public const int notification_background = 2131362030;
+			// aapt resource value: 0x7f0a00ef
+			public const int notification_background = 2131362031;
+			
+			// aapt resource value: 0x7f0a00e9
+			public const int notification_main_column = 2131362025;
 			
 			// aapt resource value: 0x7f0a00e8
-			public const int notification_main_column = 2131362024;
-			
-			// aapt resource value: 0x7f0a00e7
-			public const int notification_main_column_container = 2131362023;
+			public const int notification_main_column_container = 2131362024;
 			
 			// aapt resource value: 0x7f0a004c
 			public const int parallax = 2131361868;
 			
-			// aapt resource value: 0x7f0a0088
-			public const int parentPanel = 2131361928;
+			// aapt resource value: 0x7f0a0089
+			public const int parentPanel = 2131361929;
 			
 			// aapt resource value: 0x7f0a000b
 			public const int parent_matrix = 2131361803;
@@ -6406,8 +6688,8 @@ namespace Wiwii.Droid
 			// aapt resource value: 0x7f0a0007
 			public const int progress_horizontal = 2131361799;
 			
-			// aapt resource value: 0x7f0a0098
-			public const int radio = 2131361944;
+			// aapt resource value: 0x7f0a0099
+			public const int radio = 2131361945;
 			
 			// aapt resource value: 0x7f0a0073
 			public const int rectangle = 2131361907;
@@ -6415,14 +6697,14 @@ namespace Wiwii.Droid
 			// aapt resource value: 0x7f0a004a
 			public const int right = 2131361866;
 			
-			// aapt resource value: 0x7f0a00ed
-			public const int right_icon = 2131362029;
+			// aapt resource value: 0x7f0a00ee
+			public const int right_icon = 2131362030;
 			
-			// aapt resource value: 0x7f0a00e9
-			public const int right_side = 2131362025;
+			// aapt resource value: 0x7f0a00ea
+			public const int right_side = 2131362026;
 			
-			// aapt resource value: 0x7f0a00b0
-			public const int rootLayout = 2131361968;
+			// aapt resource value: 0x7f0a00b1
+			public const int rootLayout = 2131361969;
 			
 			// aapt resource value: 0x7f0a000c
 			public const int save_image_matrix = 2131361804;
@@ -6439,47 +6721,47 @@ namespace Wiwii.Droid
 			// aapt resource value: 0x7f0a0042
 			public const int scroll = 2131361858;
 			
-			// aapt resource value: 0x7f0a008e
-			public const int scrollIndicatorDown = 2131361934;
-			
-			// aapt resource value: 0x7f0a008a
-			public const int scrollIndicatorUp = 2131361930;
+			// aapt resource value: 0x7f0a008f
+			public const int scrollIndicatorDown = 2131361935;
 			
 			// aapt resource value: 0x7f0a008b
-			public const int scrollView = 2131361931;
+			public const int scrollIndicatorUp = 2131361931;
+			
+			// aapt resource value: 0x7f0a008c
+			public const int scrollView = 2131361932;
 			
 			// aapt resource value: 0x7f0a0055
 			public const int scrollable = 2131361877;
 			
-			// aapt resource value: 0x7f0a00a3
-			public const int search_badge = 2131361955;
-			
-			// aapt resource value: 0x7f0a00a2
-			public const int search_bar = 2131361954;
-			
 			// aapt resource value: 0x7f0a00a4
-			public const int search_button = 2131361956;
+			public const int search_badge = 2131361956;
 			
-			// aapt resource value: 0x7f0a00a9
-			public const int search_close_btn = 2131361961;
+			// aapt resource value: 0x7f0a00a3
+			public const int search_bar = 2131361955;
 			
 			// aapt resource value: 0x7f0a00a5
-			public const int search_edit_frame = 2131361957;
+			public const int search_button = 2131361957;
 			
-			// aapt resource value: 0x7f0a00ab
-			public const int search_go_btn = 2131361963;
+			// aapt resource value: 0x7f0a00aa
+			public const int search_close_btn = 2131361962;
 			
 			// aapt resource value: 0x7f0a00a6
-			public const int search_mag_icon = 2131361958;
-			
-			// aapt resource value: 0x7f0a00a7
-			public const int search_plate = 2131361959;
-			
-			// aapt resource value: 0x7f0a00a8
-			public const int search_src_text = 2131361960;
+			public const int search_edit_frame = 2131361958;
 			
 			// aapt resource value: 0x7f0a00ac
-			public const int search_voice_btn = 2131361964;
+			public const int search_go_btn = 2131361964;
+			
+			// aapt resource value: 0x7f0a00a7
+			public const int search_mag_icon = 2131361959;
+			
+			// aapt resource value: 0x7f0a00a8
+			public const int search_plate = 2131361960;
+			
+			// aapt resource value: 0x7f0a00a9
+			public const int search_src_text = 2131361961;
+			
+			// aapt resource value: 0x7f0a00ad
+			public const int search_voice_btn = 2131361965;
 			
 			// aapt resource value: 0x7f0a007b
 			public const int segmentFourteen = 2131361915;
@@ -6490,23 +6772,23 @@ namespace Wiwii.Droid
 			// aapt resource value: 0x7f0a007d
 			public const int segmentSixteen = 2131361917;
 			
-			// aapt resource value: 0x7f0a00ad
-			public const int select_dialog_listview = 2131361965;
+			// aapt resource value: 0x7f0a00ae
+			public const int select_dialog_listview = 2131361966;
 			
-			// aapt resource value: 0x7f0a00bf
-			public const int sevensegment = 2131361983;
-			
-			// aapt resource value: 0x7f0a00f6
-			public const int shellcontent_appbar = 2131362038;
-			
-			// aapt resource value: 0x7f0a00f8
-			public const int shellcontent_scrollview = 2131362040;
+			// aapt resource value: 0x7f0a00c0
+			public const int sevensegment = 2131361984;
 			
 			// aapt resource value: 0x7f0a00f7
-			public const int shellcontent_toolbar = 2131362039;
+			public const int shellcontent_appbar = 2131362039;
 			
-			// aapt resource value: 0x7f0a0097
-			public const int shortcut = 2131361943;
+			// aapt resource value: 0x7f0a00f9
+			public const int shellcontent_scrollview = 2131362041;
+			
+			// aapt resource value: 0x7f0a00f8
+			public const int shellcontent_toolbar = 2131362040;
+			
+			// aapt resource value: 0x7f0a0098
+			public const int shortcut = 2131361944;
 			
 			// aapt resource value: 0x7f0a0023
 			public const int showCustom = 2131361827;
@@ -6517,26 +6799,26 @@ namespace Wiwii.Droid
 			// aapt resource value: 0x7f0a0025
 			public const int showTitle = 2131361829;
 			
-			// aapt resource value: 0x7f0a00c2
-			public const int sixteensegment = 2131361986;
+			// aapt resource value: 0x7f0a00c3
+			public const int sixteensegment = 2131361987;
 			
-			// aapt resource value: 0x7f0a00f9
-			public const int sliding_tabs = 2131362041;
+			// aapt resource value: 0x7f0a00fa
+			public const int sliding_tabs = 2131362042;
 			
-			// aapt resource value: 0x7f0a00b1
-			public const int smallLabel = 2131361969;
+			// aapt resource value: 0x7f0a00b2
+			public const int smallLabel = 2131361970;
+			
+			// aapt resource value: 0x7f0a00b9
+			public const int snackbar_action = 2131361977;
 			
 			// aapt resource value: 0x7f0a00b8
-			public const int snackbar_action = 2131361976;
-			
-			// aapt resource value: 0x7f0a00b7
-			public const int snackbar_text = 2131361975;
+			public const int snackbar_text = 2131361976;
 			
 			// aapt resource value: 0x7f0a0043
 			public const int snap = 2131361859;
 			
-			// aapt resource value: 0x7f0a0087
-			public const int spacer = 2131361927;
+			// aapt resource value: 0x7f0a0088
+			public const int spacer = 2131361928;
 			
 			// aapt resource value: 0x7f0a0008
 			public const int split_action_bar = 2131361800;
@@ -6553,14 +6835,14 @@ namespace Wiwii.Droid
 			// aapt resource value: 0x7f0a004b
 			public const int start = 2131361867;
 			
-			// aapt resource value: 0x7f0a00e4
-			public const int status_bar_latest_event_content = 2131362020;
+			// aapt resource value: 0x7f0a00e5
+			public const int status_bar_latest_event_content = 2131362021;
 			
-			// aapt resource value: 0x7f0a0099
-			public const int submenuarrow = 2131361945;
+			// aapt resource value: 0x7f0a009a
+			public const int submenuarrow = 2131361946;
 			
-			// aapt resource value: 0x7f0a00aa
-			public const int submit_area = 2131361962;
+			// aapt resource value: 0x7f0a00ab
+			public const int submit_area = 2131361963;
 			
 			// aapt resource value: 0x7f0a001f
 			public const int tabMode = 2131361823;
@@ -6574,14 +6856,14 @@ namespace Wiwii.Droid
 			// aapt resource value: 0x7f0a001b
 			public const int text2 = 2131361819;
 			
+			// aapt resource value: 0x7f0a008e
+			public const int textSpacerNoButtons = 2131361934;
+			
 			// aapt resource value: 0x7f0a008d
-			public const int textSpacerNoButtons = 2131361933;
+			public const int textSpacerNoTitle = 2131361933;
 			
-			// aapt resource value: 0x7f0a008c
-			public const int textSpacerNoTitle = 2131361932;
-			
-			// aapt resource value: 0x7f0a00be
-			public const int text_input_password_toggle = 2131361982;
+			// aapt resource value: 0x7f0a00bf
+			public const int text_input_password_toggle = 2131361983;
 			
 			// aapt resource value: 0x7f0a0014
 			public const int textinput_counter = 2131361812;
@@ -6589,29 +6871,29 @@ namespace Wiwii.Droid
 			// aapt resource value: 0x7f0a0015
 			public const int textinput_error = 2131361813;
 			
-			// aapt resource value: 0x7f0a00ea
-			public const int time = 2131362026;
+			// aapt resource value: 0x7f0a00eb
+			public const int time = 2131362027;
 			
 			// aapt resource value: 0x7f0a001c
 			public const int title = 2131361820;
 			
-			// aapt resource value: 0x7f0a0094
-			public const int titleDividerNoCustom = 2131361940;
+			// aapt resource value: 0x7f0a0095
+			public const int titleDividerNoCustom = 2131361941;
 			
-			// aapt resource value: 0x7f0a0092
-			public const int title_template = 2131361938;
+			// aapt resource value: 0x7f0a0093
+			public const int title_template = 2131361939;
 			
-			// aapt resource value: 0x7f0a00fa
-			public const int toolbar = 2131362042;
+			// aapt resource value: 0x7f0a00fb
+			public const int toolbar = 2131362043;
 			
 			// aapt resource value: 0x7f0a003e
 			public const int top = 2131361854;
 			
-			// aapt resource value: 0x7f0a0091
-			public const int topPanel = 2131361937;
+			// aapt resource value: 0x7f0a0092
+			public const int topPanel = 2131361938;
 			
-			// aapt resource value: 0x7f0a00b5
-			public const int touch_outside = 2131361973;
+			// aapt resource value: 0x7f0a00b6
+			public const int touch_outside = 2131361974;
 			
 			// aapt resource value: 0x7f0a000f
 			public const int transition_current_scene = 2131361807;
@@ -6646,11 +6928,11 @@ namespace Wiwii.Droid
 			// aapt resource value: 0x7f0a0016
 			public const int view_offset_helper = 2131361814;
 			
-			// aapt resource value: 0x7f0a00fc
-			public const int visible = 2131362044;
+			// aapt resource value: 0x7f0a00fd
+			public const int visible = 2131362045;
 			
-			// aapt resource value: 0x7f0a00d7
-			public const int volume_item_container = 2131362007;
+			// aapt resource value: 0x7f0a00d8
+			public const int volume_item_container = 2131362008;
 			
 			// aapt resource value: 0x7f0a003c
 			public const int withText = 2131361852;
@@ -6686,6 +6968,9 @@ namespace Wiwii.Droid
 			// aapt resource value: 0x7f0c0005
 			public const int cancel_button_image_alpha = 2131492869;
 			
+			// aapt resource value: 0x7f0c000e
+			public const int circular_indeterminent_interval = 2131492878;
+			
 			// aapt resource value: 0x7f0c0006
 			public const int config_tooltipAnimTime = 2131492870;
 			
@@ -6703,6 +6988,9 @@ namespace Wiwii.Droid
 			
 			// aapt resource value: 0x7f0c0002
 			public const int mr_controller_volume_group_list_fade_out_duration_ms = 2131492866;
+			
+			// aapt resource value: 0x7f0c000d
+			public const int progressbutton_indeterminent_interval = 2131492877;
 			
 			// aapt resource value: 0x7f0c000b
 			public const int show_password_duration = 2131492875;
@@ -7216,8 +7504,8 @@ namespace Wiwii.Droid
 			// aapt resource value: 0x7f0d016e
 			public const int Animation_Design_BottomSheetDialog = 2131558766;
 			
-			// aapt resource value: 0x7f0d0191
-			public const int AppCompatDialogStyle = 2131558801;
+			// aapt resource value: 0x7f0d0195
+			public const int AppCompatDialogStyle = 2131558805;
 			
 			// aapt resource value: 0x7f0d00a9
 			public const int Base_AlertDialog_AppCompat = 2131558569;
@@ -7720,11 +8008,17 @@ namespace Wiwii.Droid
 			// aapt resource value: 0x7f0d000e
 			public const int CardView_Light = 2131558414;
 			
-			// aapt resource value: 0x7f0d018f
-			public const int MainTheme = 2131558799;
+			// aapt resource value: 0x7f0d0191
+			public const int CircularProgressBar = 2131558801;
 			
-			// aapt resource value: 0x7f0d0190
-			public const int MainTheme_Base = 2131558800;
+			// aapt resource value: 0x7f0d0192
+			public const int CircularProgressBarLight = 2131558802;
+			
+			// aapt resource value: 0x7f0d0193
+			public const int MainTheme = 2131558803;
+			
+			// aapt resource value: 0x7f0d0194
+			public const int MainTheme_Base = 2131558804;
 			
 			// aapt resource value: 0x7f0d002d
 			public const int Platform_AppCompat = 2131558445;
@@ -7767,6 +8061,12 @@ namespace Wiwii.Droid
 			
 			// aapt resource value: 0x7f0d0031
 			public const int Platform_Widget_AppCompat_Spinner = 2131558449;
+			
+			// aapt resource value: 0x7f0d018f
+			public const int ProgressButton = 2131558799;
+			
+			// aapt resource value: 0x7f0d0190
+			public const int ProgressButton_Pin = 2131558800;
 			
 			// aapt resource value: 0x7f0d003a
 			public const int RtlOverlay_DialogWindowTitle_AppCompat = 2131558458;
@@ -9645,6 +9945,40 @@ namespace Wiwii.Droid
 			// aapt resource value: 2
 			public const int ForegroundLinearLayout_foregroundInsidePadding = 2;
 			
+			public static int[] HoloCircularProgressBar = new int[] {
+					2130772485,
+					2130772486,
+					2130772487,
+					2130772488,
+					2130772489,
+					2130772490,
+					2130772491,
+					2130772492};
+			
+			// aapt resource value: 0
+			public const int HoloCircularProgressBar_circular_gravity = 0;
+			
+			// aapt resource value: 6
+			public const int HoloCircularProgressBar_circular_indeterminate = 6;
+			
+			// aapt resource value: 7
+			public const int HoloCircularProgressBar_circular_indeterminate_interval = 7;
+			
+			// aapt resource value: 3
+			public const int HoloCircularProgressBar_circular_marker_progress = 3;
+			
+			// aapt resource value: 2
+			public const int HoloCircularProgressBar_circular_progress = 2;
+			
+			// aapt resource value: 5
+			public const int HoloCircularProgressBar_circular_progress_background_color = 5;
+			
+			// aapt resource value: 4
+			public const int HoloCircularProgressBar_circular_progress_color = 4;
+			
+			// aapt resource value: 1
+			public const int HoloCircularProgressBar_circular_stroke_width = 1;
+			
 			public static int[] LinearLayoutCompat = new int[] {
 					16842927,
 					16842948,
@@ -9948,6 +10282,64 @@ namespace Wiwii.Droid
 			
 			// aapt resource value: 0
 			public const int PopupWindowBackgroundState_state_above_anchor = 0;
+			
+			public static int[] ProgressButton = new int[] {
+					16842970,
+					16842981,
+					16843534,
+					2130772474,
+					2130772475,
+					2130772476,
+					2130772477,
+					2130772478,
+					2130772479,
+					2130772480,
+					2130772481,
+					2130772482,
+					2130772483,
+					2130772484};
+			
+			// aapt resource value: 1
+			public const int ProgressButton_android_clickable = 1;
+			
+			// aapt resource value: 0
+			public const int ProgressButton_android_focusable = 0;
+			
+			// aapt resource value: 2
+			public const int ProgressButton_android_selectableItemBackground = 2;
+			
+			// aapt resource value: 5
+			public const int ProgressButton_circleColor = 5;
+			
+			// aapt resource value: 12
+			public const int ProgressButton_indeterminate = 12;
+			
+			// aapt resource value: 13
+			public const int ProgressButton_indeterminate_interval = 13;
+			
+			// aapt resource value: 10
+			public const int ProgressButton_innerSize = 10;
+			
+			// aapt resource value: 4
+			public const int ProgressButton_max = 4;
+			
+			// aapt resource value: 11
+			public const int ProgressButton_pinned = 11;
+			
+			// aapt resource value: 7
+			public const int ProgressButton_pinnedDrawable = 7;
+			
+			// aapt resource value: 3
+			public const int ProgressButton_progress = 3;
+			
+			// aapt resource value: 6
+			public const int ProgressButton_progressColor = 6;
+			
+			// aapt resource value: 9
+			public const int ProgressButton_shadowDrawable = 9;
+			
+			// aapt resource value: 8
+			public const int ProgressButton_unpinnedDrawable = 8;
 			
 			public static int[] RecycleListView = new int[] {
 					2130772200,
@@ -10922,6 +11314,12 @@ namespace Wiwii.Droid
 			
 			// aapt resource value: 15
 			public const int TextInputLayout_passwordToggleTintMode = 15;
+			
+			public static int[] Theme = new int[] {
+					2130772493};
+			
+			// aapt resource value: 0
+			public const int Theme_circularProgressBarStyle = 0;
 			
 			public static int[] Toolbar = new int[] {
 					16842927,
