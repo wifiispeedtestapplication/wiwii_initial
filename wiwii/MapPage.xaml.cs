@@ -5,9 +5,9 @@ using Xamarin.Forms;
 
 namespace Wiwii
 {
-    public partial class UserDetailPage : ContentPage
+    public partial class MapPage : ContentPage
     {
-        public UserDetailPage()
+        public MapPage()
         {
             InitializeComponent();
         }

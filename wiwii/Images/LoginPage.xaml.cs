@@ -30,9 +30,7 @@ namespace Wiwii
 
         private async void Login_Handler(object sender, EventArgs e)
         {
-			var myApp = Application.Current as App;
-			myApp.OnLogin();
-			//await Navigation.PushAsync(new WiWiiFirstPage());
+            await Navigation.PushAsync(new WiWiiFirstPage());
         }
     }
 }

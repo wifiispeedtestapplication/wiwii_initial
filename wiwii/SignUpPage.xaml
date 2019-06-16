@@ -1,9 +1,6 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:local="clr-namespace:Wiwii" x:Class="Wiwii.MainPage" NavigationPage.HasNavigationBar="False">
-   
-        
-        
-        <ContentPage.Content>
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:local="clr-namespace:Wiwii" x:Class="Wiwii.SignUpPage" NavigationPage.HasNavigationBar="False">
+     <ContentPage.Content>
         <Grid Margin="5">
             <Grid.RowDefinitions>
                 <RowDefinition Height="Auto"/>
@@ -15,16 +12,18 @@
                 <Image Source="wifiilogo1.png" WidthRequest = "200" 
                 HeightRequest = "200"/></ContentView>
                 <ContentView Padding="10,10,20,20">
-               <Label TextColor="#ff6600" FontSize = "40" FontFamily="Teko" Text="Wiwii" FontAttributes="Bold" HorizontalOptions="Center" /></ContentView>
-                <ContentView Padding="10,10,10,10">
+               <Label TextColor="#6055cd" FontSize = "40" FontFamily="Teko" Text="Wiwii" FontAttributes="Bold" HorizontalOptions="Center" /></ContentView>
+                <ContentView Padding="5,5,5,5">
                 <local:MyEntry FontAttributes="Bold" Placeholder="Username"  /></ContentView>
-                 <ContentView Padding="10,10,10,10">  
+                <ContentView Padding="5,5,5,5"> 
                 <local:MyEntry FontAttributes="Bold" Placeholder="Password" IsPassword="True" /></ContentView>
+                <ContentView Padding="5,5,5,5"> 
+                <local:MyEntry FontAttributes="Bold" Placeholder="Verify Password" IsPassword="True" /></ContentView>
                 <Label Text="" />
             </StackLayout>
             <StackLayout Grid.Row="1">
                 <ContentView Padding="10,10,10,10">
-             <Button Text="Login"
+             <Button Text="Sign Up"
                 VerticalOptions="End"
                 HorizontalOptions="Center"
                FontAttributes="Bold"
@@ -33,11 +32,9 @@
                 BorderColor="#6055cd"
                 BorderRadius="15"
                 TextColor="#e0ddf5"
-                     Clicked="Login_Handler"
-                     
                  /></ContentView>
                 <ContentView Padding="10,10,10,10">
-                 <Button Text="Sign Up"
+                 <Button Text="Back"
                 VerticalOptions="End"
                 HorizontalOptions="Center"
                FontAttributes="Bold"
@@ -46,37 +43,12 @@
                 BorderColor="#ff6600"
                 BorderRadius="15"
                 TextColor="#e0ddf5"
-                 Clicked="Handle_Clicked"
-                 
-                    /></ContentView>
+                        Clicked="Back_Handler"
+                 />
+                    </ContentView>
                 
-                </StackLayout>
-            <StackLayout Grid.Row="2" Orientation="Horizontal" >
-                <ContentView Padding="150,5,10,5">
-                <Image Source="fb.png" WidthRequest = "40" 
-                HeightRequest = "40" HorizontalOptions="Start"/></ContentView>
-    <ContentView Padding="10,5,150,5">
-                <Image Source="gmail.jpg" WidthRequest = "50" 
-                HeightRequest = "60" HorizontalOptions="End"/></ContentView>
                 </StackLayout>
             
         </Grid>
     </ContentPage.Content>
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        <!-- Place new controls here -->
-    
-   
 </ContentPage>

@@ -5,7 +5,7 @@ using System.Linq;
 using Foundation;
 using UIKit;
 
-namespace wiwii.iOS
+namespace Wiwii.iOS
 {
     // The UIApplicationDelegate for the application. This class is responsible for launching the 
     // User Interface of the application, as well as listening (and optionally responding) to 
@@ -22,10 +22,9 @@ namespace wiwii.iOS
         //
         public override bool FinishedLaunching(UIApplication app, NSDictionary options)
         {
-            Xamarin.Calabash.Start();
             global::Xamarin.Forms.Forms.Init();
             LoadApplication(new App());
-
+            new Syncfusion.SfGauge.XForms.iOS.SfGaugeRenderer();
             return base.FinishedLaunching(app, options);
         }
     }

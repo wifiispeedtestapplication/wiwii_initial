@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage Title = "WiWii Speed Test" xmlns:gauge="clr-namespace:Syncfusion.SfGauge.XForms;assembly=Syncfusion.SfGauge.XForms"  xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="Wiwii.WiWiiFirstPage">
+    <ContentPage.Content>
+        <Grid Margin="0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+            <StackLayout Grid.Row="0">
+         <ContentView Padding="10,30,10,10">
+                 <Button Text="TEST SPEED"
+                VerticalOptions="End"
+                HorizontalOptions="Center"
+               FontAttributes="Bold"
+               WidthRequest="400"
+              BackgroundColor="#ff6600"
+                BorderColor="#ff6600"
+                BorderRadius="15"
+                TextColor="#e0ddf5"
+                 
+                 
+                    /></ContentView>
+                </StackLayout>
+            <StackLayout Grid.Row="1">
+                <ContentView Padding="10,50,10,10">
+       <gauge:SfCircularGauge>
+            <gauge:SfCircularGauge.Scales>
+                <gauge:Scale StartValue="0" EndValue="100">
+                    
+                    <gauge:Scale.Ranges>
+                        <gauge:Range StartValue="0" EndValue="35" Color="#e0ddf5"></gauge:Range>
+                        <gauge:Range StartValue="35" EndValue="70" Color="#6055cd"></gauge:Range>
+                        <gauge:Range StartValue="70" EndValue="100" Color="#ff6600"></gauge:Range>
+                        
+                        
+                        </gauge:Scale.Ranges>
+                    <gauge:Scale.Pointers>
+                        <gauge:MarkerPointer Value="70"></gauge:MarkerPointer>
+                        <gauge:NeedlePointer Value="35"></gauge:NeedlePointer>
+                        <gauge:RangePointer Value="90"></gauge:RangePointer>
+                        </gauge:Scale.Pointers>
+                </gauge:Scale>
+                
+            </gauge:SfCircularGauge.Scales>
+            <gauge:SfCircularGauge.Headers >
+                <gauge:Header Text="WiWii MBPS" ForegroundColor="#ff6600" TextSize="20"></gauge:Header>
+                    </gauge:SfCircularGauge.Headers>
+        </gauge:SfCircularGauge>
+                    </ContentView>
+                </StackLayout>
+           
+      
+        
+        <StackLayout Grid.Row="2">
+            <ContentView Padding="10,50,20,20">
+            
+               <Label TextColor="#6055cd" FontSize = "40" FontFamily="Teko" Text="35MB/S" FontAttributes="Bold" HorizontalOptions="Center" /></ContentView>
+                
+            <ContentView Padding="0,20,0,0">
+                 <Label Text="UPLOADING...."
+                VerticalOptions="End"
+                HorizontalOptions="Center"
+               FontAttributes="Bold"
+               WidthRequest="400"
+              BackgroundColor="#ff6600"
+                HeightRequest="50"
+                
+                TextColor="#e0ddf5"
+                 
+                 
+                    /></ContentView>
+                <ContentView Padding="0,0,0,0">
+               <Label Text="DOWNLOADING...."
+                VerticalOptions="End"
+                HorizontalOptions="Center"
+               FontAttributes="Bold"
+               WidthRequest="400"
+              BackgroundColor="#6055cd"
+                      HeightRequest="50"
+                
+                TextColor="#e0ddf5"
+                 
+                 
+                    />
+                    </ContentView>
+            
+            
+            
+            
+        </StackLayout>
+             </Grid>
+    </ContentPage.Content>
+</ContentPage>

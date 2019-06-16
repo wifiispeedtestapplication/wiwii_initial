@@ -5,13 +5,13 @@
     <Platform Condition=" '$(Platform)' == '' ">iPhoneSimulator</Platform>
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{57FCDBA6-F5FA-4B6D-ABF9-8E93796F8287}</ProjectGuid>
+    <ProjectGuid>{EBB22FBF-97DA-4368-ACE0-D97155319B6D}</ProjectGuid>
     <ProjectTypeGuids>{FEACFBD2-3405-455C-9665-78FE426C6842};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <TemplateGuid>{6143fdea-f3c2-4a09-aafa-6e230626515e}</TemplateGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>wiwii.iOS</RootNamespace>
+    <RootNamespace>Wiwii.iOS</RootNamespace>
     <IPhoneResourcePrefix>Resources</IPhoneResourcePrefix>
-    <AssemblyName>wiwii.iOS</AssemblyName>
+    <AssemblyName>Wiwii.iOS</AssemblyName>
     <MtouchEnableSGenConc>true</MtouchEnableSGenConc>
     <MtouchHttpClientHandler>NSUrlSessionHandler</MtouchHttpClientHandler>
   </PropertyGroup>
@@ -124,15 +124,19 @@
     <Reference Include="System.Numerics.Vectors" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Xamarin.Forms" Version="3.6.0.344457" />
-    <PackageReference Include="Xamarin.TestCloud.Agent" Version="0.21.7" />
+    <PackageReference Include="Xamarin.Forms" Version="4.0.0.497661" />
     <PackageReference Include="Xamarin.Essentials" Version="1.1.0" />
+    <PackageReference Include="Syncfusion.Xamarin.SfGauge">
+      <Version>17.1.0.51</Version>
+    </PackageReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\wifiilogo.png" />
+    <BundleResource Include="Resources\MyEntryRenderer.cs" />
+    <BundleResource Include="Resources\wifiilogo1.png" />
+    <BundleResource Include="Resources\fb.png" />
+    <BundleResource Include="Resources\gmail.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
-  <ItemGroup>
-    <ProjectReference Include="..\wiwii\wiwii.csproj">
-      <Project>{48819FC0-2625-48B1-9C0C-349678AF0CF1}</Project>
-      <Name>wiwii</Name>
-    </ProjectReference>
-  </ItemGroup>
+  <Import Project="..\Wiwii\Wiwii.projitems" Label="Shared" />
 </Project>

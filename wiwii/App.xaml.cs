@@ -2,7 +2,7 @@
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
-namespace wiwii
+namespace Wiwii
 {
     public partial class App : Application
     {
@@ -10,16 +10,15 @@ namespace wiwii
         {
             InitializeComponent();
 
-            //MainPage = new MainPage();
             MainPage = new NavigationPage(new MainPage());
         }
 
-        public void OnLogin()
-        {
-            MainPage = new AfterLoginPage();
-        }
+		public void OnLogin()
+		{
+			MainPage = new AfterUserLoginPage();
+		}
 
-        protected override void OnStart()
+		protected override void OnStart()
         {
             // Handle when your app starts
         }

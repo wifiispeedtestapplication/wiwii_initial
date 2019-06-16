@@ -5,7 +5,7 @@ using System.Linq;
 using Foundation;
 using UIKit;
 
-namespace wiwii.iOS
+namespace Wiwii.iOS
 {
     public class Application
     {

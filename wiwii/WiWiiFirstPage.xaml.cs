@@ -3,11 +3,11 @@ using System.Collections.Generic;
 
 using Xamarin.Forms;
 
-namespace wiwii
+namespace Wiwii
 {
-    public partial class MapChoose : ContentPage
+    public partial class WiWiiFirstPage : ContentPage
     {
-        public MapChoose()
+        public WiWiiFirstPage()
         {
             InitializeComponent();
         }

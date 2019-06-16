@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MasterDetailPage 
-    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns="http://xamarin.com/schemas/2014/forms" 
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
-    x:Class="wiwii.AfterLoginPage" Title="After Login Page">
+    x:Class="Wiwii.AfterUserLoginPage" Title="After Login Page">
     <MasterDetailPage.Master>
         <ContentPage Padding="10" BackgroundColor="Lime" Title="Master">
             <ContentPage.Content>
@@ -19,5 +19,4 @@
             </ContentPage.Content>
         </ContentPage>
     </MasterDetailPage.Detail>
-    
 </MasterDetailPage>
