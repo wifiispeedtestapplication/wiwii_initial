@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage Title = "SPEED TEST" xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="Wiwii.speedTestSetting">
+    <ContentPage.Content>
+      <ContentView Padding="60,25,10,5">
+        <Grid VerticalOptions="Start">
+    <Grid.RowDefinitions>
+       <RowDefinition/>
+    </Grid.RowDefinitions>
+    <Label VerticalTextAlignment="Center" Grid.Row="0" Grid.Column="0" Text="Enable auto test" >
+     </Label>
+                
+     <Switch Grid.Row="0" Grid.Column="1" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" x:Name="switch1" />
+     <Label VerticalTextAlignment="Center" Grid.Row="1" Grid.Column="0" Text="Only for free Wifi" >
+     </Label>
+                
+     <Switch Grid.Row="1" Grid.Column="1" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" x:Name="switch2" />
+      <Label VerticalTextAlignment="Center" Grid.Row="2" Grid.Column="0" Text="Only for free Wifi" >
+     </Label>
+                <Button  x:Name="btn6"  BackgroundColor="#FFE5CC"
+                BorderColor="#ff6600" BorderRadius="10" Image="@Images/pencil.png"   Text="1 Hour" Grid.Row="2" Grid.Column="1" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" />
+</Grid>
+           </ContentView>
+    </ContentPage.Content>
+</ContentPage>

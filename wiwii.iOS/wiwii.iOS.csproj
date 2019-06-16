@@ -69,6 +69,10 @@
     <None Include="Entitlements.plist" />
     <None Include="Info.plist" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <None Include="Resources\history.png" />
+    <None Include="Resources\connection.png" />
+    <None Include="Resources\pencil.png" />
+    <None Include="Resources\profilePic.png" />
   </ItemGroup>
   <ItemGroup>
     <InterfaceDefinition Include="Resources\LaunchScreen.storyboard" />
@@ -136,10 +140,14 @@
     <BundleResource Include="Resources\wifiilogo1.png" />
     <BundleResource Include="Resources\fb.png" />
     <BundleResource Include="Resources\gmail.jpg" />
+<<<<<<< Updated upstream
     <BundleResource Include="Resources\hour.png" />
     <BundleResource Include="Resources\test.png" />
     <BundleResource Include="Resources\speed.png" />
     <BundleResource Include="Resources\distance.png" />
+=======
+    <BundleResource Include="Resources\setting.png" />
+>>>>>>> Stashed changes
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <Import Project="..\Wiwii\Wiwii.projitems" Label="Shared" />

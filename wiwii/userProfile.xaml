@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage Title = "PROFILE" xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="Wiwii.userProfile">
+  
+    <ContentPage.Content>
+      
+        <StackLayout Padding="30">
+          <Image Source="@Images/profilePic.png" WidthRequest = "200" 
+                HeightRequest = "200"/>
+<Button  x:Name="btn1" BackgroundColor="#FFE5CC"
+                BorderColor="#ff6600"   Text="John Doe" Image="@Images/pencil.png" />
+<Button  x:Name="btn2"  BackgroundColor="#FFE5CC"
+                BorderColor="#ff6600"   Text="San Francisco, CA" Image="@Images/pencil.png" />
+            <Button  x:Name="btn3" BackgroundColor="#FFE5CC"
+                BorderColor="#ff6600"   Text="+123 456 789 001" Image="@Images/pencil.png"/>
+             <Button  x:Name="btn4"  BackgroundColor="#FFE5CC"
+                BorderColor="#ff6600"   Text="john.doe@mail.com" Image="@Images/pencil.png"/>
+            <Button  x:Name="btn5"  BackgroundColor="#FFE5CC"
+                BorderColor="#ff6600"   Text="Change Password" Image="@Images/pencil.png"/>
+
+
+</StackLayout>
+    </ContentPage.Content>
+</ContentPage>

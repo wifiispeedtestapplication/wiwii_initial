@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage Title = "CURRENT CONNECTION" xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="Wiwii.currentConnection">
+    <ContentPage.Content>
+      
+        <ContentView Padding="10,50,20,20">
+               
+                
+                   <Label TextColor="#6055cd" FontSize = "40" FontFamily="Teko" Text="35MB/S" FontAttributes="Bold" HorizontalOptions="Center" /></ContentView>
+    </ContentPage.Content>
+   
+</ContentPage>

@@ -27,12 +27,13 @@ namespace Wiwii
         {
             await Navigation.PushAsync(new SignUpPage());
         }
+       
 
-        private async void Login_Handler(object sender, EventArgs e)
+        private void Login_Handler(object sender, EventArgs e)
         {
-			var myApp = Application.Current as App;
-			myApp.OnLogin();
-			//await Navigation.PushAsync(new WiWiiFirstPage());
+            var myApp = Application.Current as App;
+            myApp.OnLogin();
+            //await Navigation.PushAsync(new WiWiiFirstPage());
         }
     }
 }

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage Title = "SETTINGS" xmlns:gauge="clr-namespace:Syncfusion.SfGauge.XForms;assembly=Syncfusion.SfGauge.XForms" xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="Wiwii.SettingsScreen">
+    <ContentPage.ToolbarItems>
+        
+    <ToolbarItem Text="profile" Activated="ToolbarItem_ActivatedAsync" Priority="1" Order="Secondary"/>
+    <ToolbarItem Text="Test" Activated="ToolbarItem_ActivatedAsync" Priority="2" Order="Secondary"/>
+    <ToolbarItem Text="location" Activated="ToolbarItem_ActivatedAsync" Priority="3" Order="Secondary"/>
+    
+    </ContentPage.ToolbarItems>
+
+ <ContentPage.Content>
+   
+        <StackLayout Padding="30">
+
+<Button  x:Name="btn1" BackgroundColor="#ff6600"
+                BorderColor="#ff6600"  Image="@Images/profile.png" Text="Profile" Clicked="ToolbarItem_ActivatedAsync"  />
+<Button  x:Name="btn2"  BackgroundColor="#ff6600"
+                BorderColor="#ff6600" Image="@Images/setting.png"   Text="Speed Test" Clicked="speedTestSettingAsync"/>
+            <Button  x:Name="btn3"  BackgroundColor="#ff6600"
+                BorderColor="#ff6600" Image="@Images/history.png"   Text="History" Clicked="historySettingAsync"/>
+             <Button  x:Name="btn4"  BackgroundColor="#ff6600"
+                BorderColor="#ff6600" Image="@Images/connection.png"   Text="Current Connection" Clicked="connectionSettingAsync" />
+
+
+</StackLayout>
+    </ContentPage.Content>
+    
+   
+</ContentPage>

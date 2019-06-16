@@ -30,6 +30,26 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)SettingsScreen.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)userProfile.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)speedTestSetting.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)history.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)currentConnection.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="$(MSBuildThisFileDirectory)App.xaml.cs">
@@ -52,6 +72,21 @@
     <Compile Include="$(MSBuildThisFileDirectory)MapPage.xaml.cs">
       <DependentUpon>MapPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)SettingsScreen.xaml.cs">
+      <DependentUpon>SettingsScreen.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)userProfile.xaml.cs">
+      <DependentUpon>userProfile.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)speedTestSetting.xaml.cs">
+      <DependentUpon>speedTestSetting.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)history.xaml.cs">
+      <DependentUpon>history.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)currentConnection.xaml.cs">
+      <DependentUpon>currentConnection.xaml</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="$(MSBuildThisFileDirectory)Images\" />
@@ -69,9 +104,18 @@
     <None Include="$(MSBuildThisFileDirectory)Images\gmail.jpg" />
     <None Include="$(MSBuildThisFileDirectory)fb.png" />
     <None Include="$(MSBuildThisFileDirectory)gmail.jpg" />
+<<<<<<< Updated upstream
     <None Include="$(MSBuildThisFileDirectory)Images\hour.png" />
     <None Include="$(MSBuildThisFileDirectory)Images\test.png" />
     <None Include="$(MSBuildThisFileDirectory)Images\speed.png" />
     <None Include="$(MSBuildThisFileDirectory)Images\distance.png" />
+=======
+    <None Include="$(MSBuildThisFileDirectory)Images\profile.png" />
+    <None Include="$(MSBuildThisFileDirectory)Images\setting.png" />
+    <None Include="$(MSBuildThisFileDirectory)Images\history.png" />
+    <None Include="$(MSBuildThisFileDirectory)Images\connection.png" />
+    <None Include="$(MSBuildThisFileDirectory)Images\pencil.png" />
+    <None Include="$(MSBuildThisFileDirectory)Images\profilePic.png" />
+>>>>>>> Stashed changes
   </ItemGroup>
 </Project>

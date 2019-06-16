@@ -32,5 +32,6 @@ namespace Wiwii
         {
             // Handle when your app resumes
         }
+
     }
 }

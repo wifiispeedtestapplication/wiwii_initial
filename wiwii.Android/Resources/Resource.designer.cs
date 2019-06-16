@@ -5442,6 +5442,7 @@ namespace Wiwii.Droid
 			// aapt resource value: 0x7f020053
 			public const int avd_hide_password = 2130837587;
 			
+<<<<<<< Updated upstream
 			// aapt resource value: 0x7f02013e
 			public const int avd_hide_password_1 = 2130837822;
 			
@@ -5450,10 +5451,21 @@ namespace Wiwii.Droid
 			
 			// aapt resource value: 0x7f020140
 			public const int avd_hide_password_3 = 2130837824;
+=======
+			// aapt resource value: 0x7f020140
+			public const int avd_hide_password_1 = 2130837824;
+			
+			// aapt resource value: 0x7f020141
+			public const int avd_hide_password_2 = 2130837825;
+			
+			// aapt resource value: 0x7f020142
+			public const int avd_hide_password_3 = 2130837826;
+>>>>>>> Stashed changes
 			
 			// aapt resource value: 0x7f020054
 			public const int avd_show_password = 2130837588;
 			
+<<<<<<< Updated upstream
 			// aapt resource value: 0x7f020141
 			public const int avd_show_password_1 = 2130837825;
 			
@@ -5462,27 +5474,41 @@ namespace Wiwii.Droid
 			
 			// aapt resource value: 0x7f020143
 			public const int avd_show_password_3 = 2130837827;
+=======
+			// aapt resource value: 0x7f020143
+			public const int avd_show_password_1 = 2130837827;
+			
+			// aapt resource value: 0x7f020144
+			public const int avd_show_password_2 = 2130837828;
+			
+			// aapt resource value: 0x7f020145
+			public const int avd_show_password_3 = 2130837829;
+>>>>>>> Stashed changes
 			
 			// aapt resource value: 0x7f020055
-			public const int design_bottom_navigation_item_background = 2130837589;
+			public const int connection = 2130837589;
 			
 			// aapt resource value: 0x7f020056
-			public const int design_fab_background = 2130837590;
+			public const int design_bottom_navigation_item_background = 2130837590;
 			
 			// aapt resource value: 0x7f020057
-			public const int design_ic_visibility = 2130837591;
+			public const int design_fab_background = 2130837591;
 			
 			// aapt resource value: 0x7f020058
-			public const int design_ic_visibility_off = 2130837592;
+			public const int design_ic_visibility = 2130837592;
 			
 			// aapt resource value: 0x7f020059
-			public const int design_password_eye = 2130837593;
+			public const int design_ic_visibility_off = 2130837593;
 			
 			// aapt resource value: 0x7f02005a
-			public const int design_snackbar_background = 2130837594;
+			public const int design_password_eye = 2130837594;
 			
 			// aapt resource value: 0x7f02005b
+<<<<<<< Updated upstream
 			public const int distance = 2130837595;
+=======
+			public const int design_snackbar_background = 2130837595;
+>>>>>>> Stashed changes
 			
 			// aapt resource value: 0x7f02005c
 			public const int fb = 2130837596;
@@ -5491,7 +5517,11 @@ namespace Wiwii.Droid
 			public const int gmail = 2130837597;
 			
 			// aapt resource value: 0x7f02005e
+<<<<<<< Updated upstream
 			public const int hour = 2130837598;
+=======
+			public const int history = 2130837598;
+>>>>>>> Stashed changes
 			
 			// aapt resource value: 0x7f02005f
 			public const int ic_audiotrack_dark = 2130837599;
@@ -6117,11 +6147,19 @@ namespace Wiwii.Droid
 			// aapt resource value: 0x7f02012e
 			public const int notification_icon_background = 2130837806;
 			
+<<<<<<< Updated upstream
 			// aapt resource value: 0x7f02013c
 			public const int notification_template_icon_bg = 2130837820;
 			
 			// aapt resource value: 0x7f02013d
 			public const int notification_template_icon_low_bg = 2130837821;
+=======
+			// aapt resource value: 0x7f02013e
+			public const int notification_template_icon_bg = 2130837822;
+			
+			// aapt resource value: 0x7f02013f
+			public const int notification_template_icon_low_bg = 2130837823;
+>>>>>>> Stashed changes
 			
 			// aapt resource value: 0x7f02012f
 			public const int notification_tile_bg = 2130837807;
@@ -6130,6 +6168,7 @@ namespace Wiwii.Droid
 			public const int notify_panel_notification_icon_bg = 2130837808;
 			
 			// aapt resource value: 0x7f020131
+<<<<<<< Updated upstream
 			public const int pin_progress_pinned = 2130837809;
 			
 			// aapt resource value: 0x7f020132
@@ -6161,6 +6200,45 @@ namespace Wiwii.Droid
 			
 			// aapt resource value: 0x7f02013b
 			public const int wifiilogo1 = 2130837819;
+=======
+			public const int pencil = 2130837809;
+			
+			// aapt resource value: 0x7f020132
+			public const int pin_progress_pinned = 2130837810;
+			
+			// aapt resource value: 0x7f020133
+			public const int pin_progress_shadow = 2130837811;
+			
+			// aapt resource value: 0x7f020134
+			public const int pin_progress_unpinned = 2130837812;
+			
+			// aapt resource value: 0x7f020135
+			public const int profile = 2130837813;
+			
+			// aapt resource value: 0x7f020136
+			public const int profilePic = 2130837814;
+			
+			// aapt resource value: 0x7f020137
+			public const int scrubber_control_normal_holo = 2130837815;
+			
+			// aapt resource value: 0x7f020138
+			public const int scrubber_control_pressed_holo = 2130837816;
+			
+			// aapt resource value: 0x7f020139
+			public const int setting = 2130837817;
+			
+			// aapt resource value: 0x7f02013a
+			public const int tooltip_frame_dark = 2130837818;
+			
+			// aapt resource value: 0x7f02013b
+			public const int tooltip_frame_light = 2130837819;
+			
+			// aapt resource value: 0x7f02013c
+			public const int wifiilogo = 2130837820;
+			
+			// aapt resource value: 0x7f02013d
+			public const int wifiilogo1 = 2130837821;
+>>>>>>> Stashed changes
 			
 			static Drawable()
 			{
@@ -6555,10 +6633,17 @@ namespace Wiwii.Droid
 			
 			// aapt resource value: 0x7f0a00f4
 			public const int main_toolbar = 2131362036;
+<<<<<<< Updated upstream
 			
 			// aapt resource value: 0x7f0a00fe
 			public const int masked = 2131362046;
 			
+=======
+			
+			// aapt resource value: 0x7f0a00fe
+			public const int masked = 2131362046;
+			
+>>>>>>> Stashed changes
 			// aapt resource value: 0x7f0a00e6
 			public const int media_actions = 2131362022;
 			

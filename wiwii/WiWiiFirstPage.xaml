@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <ContentPage Title = "WiWii Speed Test" xmlns:gauge="clr-namespace:Syncfusion.SfGauge.XForms;assembly=Syncfusion.SfGauge.XForms"  xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="Wiwii.WiWiiFirstPage">
     <ContentPage.Content>
         <Grid Margin="0">
@@ -52,43 +52,43 @@
            
       
         
-        <StackLayout Grid.Row="2">
-            <ContentView Padding="10,50,20,20">
-            
-               <Label TextColor="#6055cd" FontSize = "40" FontFamily="Teko" Text="35MB/S" FontAttributes="Bold" HorizontalOptions="Center" /></ContentView>
+            <StackLayout Grid.Row="2">
+                <ContentView Padding="10,50,20,20">
                 
-            <ContentView Padding="0,20,0,0">
-                 <Label Text="UPLOADING...."
-                VerticalOptions="End"
-                HorizontalOptions="Center"
-               FontAttributes="Bold"
-               WidthRequest="400"
-              BackgroundColor="#ff6600"
-                HeightRequest="50"
+                   <Label TextColor="#6055cd" FontSize = "40" FontFamily="Teko" Text="35MB/S" FontAttributes="Bold" HorizontalOptions="Center" /></ContentView>
+                    
+                <ContentView Padding="0,20,0,0">
+                     <Label Text="UPLOADING...."
+                    VerticalOptions="End"
+                    HorizontalOptions="Center"
+                   FontAttributes="Bold"
+                   WidthRequest="400"
+                  BackgroundColor="#ff6600"
+                    HeightRequest="50"
+                    
+                    TextColor="#e0ddf5"
+                     
+                     
+                        /></ContentView>
+                    <ContentView Padding="0,0,0,0">
+                   <Label Text="DOWNLOADING...."
+                    VerticalOptions="End"
+                    HorizontalOptions="Center"
+                   FontAttributes="Bold"
+                   WidthRequest="400"
+                  BackgroundColor="#6055cd"
+                          HeightRequest="50"
+                    
+                    TextColor="#e0ddf5"
+                     
+                     
+                        />
+                        </ContentView>
                 
-                TextColor="#e0ddf5"
-                 
-                 
-                    /></ContentView>
-                <ContentView Padding="0,0,0,0">
-               <Label Text="DOWNLOADING...."
-                VerticalOptions="End"
-                HorizontalOptions="Center"
-               FontAttributes="Bold"
-               WidthRequest="400"
-              BackgroundColor="#6055cd"
-                      HeightRequest="50"
                 
-                TextColor="#e0ddf5"
-                 
-                 
-                    />
-                    </ContentView>
-            
-            
-            
-            
-        </StackLayout>
+                
+                
+            </StackLayout>
              </Grid>
     </ContentPage.Content>
 </ContentPage>
