@@ -100,19 +100,16 @@
     <AndroidResource Include="Resources\drawable\wifiilogo1.png" />
     <AndroidResource Include="Resources\drawable\fb.png" />
     <AndroidResource Include="Resources\drawable\gmail.jpg" />
-<<<<<<< Updated upstream
     <AndroidResource Include="Resources\drawable\hour.png" />
     <AndroidResource Include="Resources\drawable\test.png" />
     <AndroidResource Include="Resources\drawable\speed.png" />
     <AndroidResource Include="Resources\drawable\distance.png" />
-=======
     <AndroidResource Include="Resources\drawable\profile.png" />
     <AndroidResource Include="Resources\drawable\setting.png" />
     <AndroidResource Include="Resources\drawable\history.png" />
     <AndroidResource Include="Resources\drawable\connection.png" />
     <AndroidResource Include="Resources\drawable\pencil.png" />
     <AndroidResource Include="Resources\drawable\profilePic.png" />
->>>>>>> Stashed changes
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\drawable\" />

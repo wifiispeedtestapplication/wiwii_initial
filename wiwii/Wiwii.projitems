@@ -104,18 +104,15 @@
     <None Include="$(MSBuildThisFileDirectory)Images\gmail.jpg" />
     <None Include="$(MSBuildThisFileDirectory)fb.png" />
     <None Include="$(MSBuildThisFileDirectory)gmail.jpg" />
-<<<<<<< Updated upstream
     <None Include="$(MSBuildThisFileDirectory)Images\hour.png" />
     <None Include="$(MSBuildThisFileDirectory)Images\test.png" />
     <None Include="$(MSBuildThisFileDirectory)Images\speed.png" />
     <None Include="$(MSBuildThisFileDirectory)Images\distance.png" />
-=======
     <None Include="$(MSBuildThisFileDirectory)Images\profile.png" />
     <None Include="$(MSBuildThisFileDirectory)Images\setting.png" />
     <None Include="$(MSBuildThisFileDirectory)Images\history.png" />
     <None Include="$(MSBuildThisFileDirectory)Images\connection.png" />
     <None Include="$(MSBuildThisFileDirectory)Images\pencil.png" />
     <None Include="$(MSBuildThisFileDirectory)Images\profilePic.png" />
->>>>>>> Stashed changes
   </ItemGroup>
 </Project>

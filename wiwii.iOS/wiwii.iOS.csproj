@@ -140,14 +140,11 @@
     <BundleResource Include="Resources\wifiilogo1.png" />
     <BundleResource Include="Resources\fb.png" />
     <BundleResource Include="Resources\gmail.jpg" />
-<<<<<<< Updated upstream
     <BundleResource Include="Resources\hour.png" />
     <BundleResource Include="Resources\test.png" />
     <BundleResource Include="Resources\speed.png" />
     <BundleResource Include="Resources\distance.png" />
-=======
     <BundleResource Include="Resources\setting.png" />
->>>>>>> Stashed changes
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <Import Project="..\Wiwii\Wiwii.projitems" Label="Shared" />
